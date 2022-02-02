@@ -7,11 +7,11 @@
 
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.Controller.SelectPositionModel">
    <children>
-      <Button layoutX="208.0" layoutY="149.0" mnemonicParsing="false" prefHeight="67.0" prefWidth="185.0" text="I'm a student" />
-      <Button layoutX="208.0" layoutY="247.0" mnemonicParsing="false" prefHeight="67.0" prefWidth="185.0" text="I'm a Teacher" />
-      <Text layoutX="119.0" layoutY="73.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select your position to register Attendance">
+      <Button fx:id="buttonStudent" layoutX="208.0" layoutY="149.0" mnemonicParsing="false" onAction="#openStudentPage" prefHeight="67.0" prefWidth="185.0" text="I'm a student" />
+      <Button fx:id="buttonTeacher" layoutX="208.0" layoutY="247.0" mnemonicParsing="false" onAction="#openTeacherPage" prefHeight="67.0" prefWidth="185.0" text="I'm a Teacher" />
+      <Text layoutX="130.0" layoutY="71.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select your position to register Attendance">
          <font>
-            <Font name="System Bold" size="18.0" />
+            <Font size="18.0" />
          </font>
       </Text>
    </children>
