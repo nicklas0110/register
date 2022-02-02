@@ -7,8 +7,10 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 public class Main extends Application {
+
+    @Override
     public void start(Stage primaryStage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("View/1_SelectPosition.FXML"));
+        Parent root = FXMLLoader.load(getClass().getResource("View/1_SelectPosition.fxml"));
 
         primaryStage.setTitle("Register Attendance");
         primaryStage.setScene(new Scene(root, 920, 500));
