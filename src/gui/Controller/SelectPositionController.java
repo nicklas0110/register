@@ -10,7 +10,7 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
-public class SelectPositionModel {
+public class SelectPositionController {
 
 @FXML
 private Button buttonStudent;
