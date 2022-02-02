@@ -13,7 +13,7 @@ public class Main extends Application {
         Parent root = FXMLLoader.load(getClass().getResource("View/1_SelectPosition.fxml"));
 
         primaryStage.setTitle("Register Attendance");
-        primaryStage.setScene(new Scene(root, 920, 500));
+        primaryStage.setScene(new Scene(root, 600, 400));
         primaryStage.show();
 
     }

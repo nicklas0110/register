@@ -19,7 +19,7 @@ public class StudentLoginController {
 
     public void Back(ActionEvent actionEvent) throws IOException {
         Stage switchScene = (Stage) buttonBack.getScene().getWindow();
-        Parent parent = FXMLLoader.load(getClass().getResource("../View/SelectPosition.fxml"));
+        Parent parent = FXMLLoader.load(getClass().getResource("../View/1_SelectPosition.fxml"));
         Scene scene = new Scene(parent);
         switchScene.setScene(scene);
     }

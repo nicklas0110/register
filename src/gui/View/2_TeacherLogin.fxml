@@ -8,20 +8,22 @@
 
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.Controller.TeacherLoginController">
    <children>
-      <TextField layoutX="226.0" layoutY="157.0" />
-      <TextField layoutX="226.0" layoutY="194.0" />
-      <Text layoutX="278.0" layoutY="134.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Login">
+      <TextField fx:id="textfieldUsername" layoutX="226.0" layoutY="157.0" />
+      <TextField fx:id="textfieldPassword" layoutX="226.0" layoutY="203.0" />
+      <Text layoutX="278.0" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Login">
          <font>
             <Font size="18.0" />
          </font>
       </Text>
-      <Text layoutX="246.0" layoutY="255.0" strokeType="OUTSIDE" strokeWidth="0.0" text="or scan/swipe">
+      <Text layoutX="246.0" layoutY="265.0" strokeType="OUTSIDE" strokeWidth="0.0" text="or scan/swipe">
          <font>
             <Font size="18.0" />
          </font>
       </Text>
-      <TextField layoutX="226.0" layoutY="276.0" />
-      <Button fx:id="ButtonNext" layoutX="538.0" layoutY="352.0" mnemonicParsing="false" onAction="#Next" text="Next" />
-      <Button fx:id="ButtonBack" layoutX="21.0" layoutY="352.0" mnemonicParsing="false" onAction="#Back" text="back" />
+      <TextField fx:id="textfieldScanSwipe" layoutX="226.0" layoutY="285.0" />
+      <Button fx:id="buttonNext" layoutX="538.0" layoutY="352.0" mnemonicParsing="false" onAction="#Next" text="Next" />
+      <Button fx:id="buttonBack" layoutX="21.0" layoutY="352.0" mnemonicParsing="false" onAction="#Back" text="back" />
+      <Text layoutX="273.0" layoutY="152.0" strokeType="OUTSIDE" strokeWidth="0.0" text="username:" />
+      <Text layoutX="274.0" layoutY="198.0" strokeType="OUTSIDE" strokeWidth="0.0" text="password:" />
    </children>
 </AnchorPane>
