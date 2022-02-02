@@ -19,14 +19,14 @@ private Button buttonTeacher;
 
     public void openStudentPage(ActionEvent actionEvent) throws IOException {
         Stage switchScene = (Stage) buttonStudent.getScene().getWindow();
-        Parent parent = FXMLLoader.load(getClass().getResource("../View/2.1_StudentLogin.fxml"));
+        Parent parent = FXMLLoader.load(getClass().getResource("../View/Student/2_StudentLogin.fxml"));
         Scene scene = new Scene(parent);
         switchScene.setScene(scene);
     }
 
     public void openTeacherPage(ActionEvent actionEvent) throws IOException {
         Stage switchScene = (Stage) buttonTeacher.getScene().getWindow();
-        Parent parent = FXMLLoader.load(getClass().getResource("../View/2_TeacherLogin.fxml"));
+        Parent parent = FXMLLoader.load(getClass().getResource("../View/Teacher/2_TeacherLogin.fxml"));
         Scene scene = new Scene(parent);
         switchScene.setScene(scene);
     }
