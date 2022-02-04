@@ -15,7 +15,7 @@ public class SelectPositionController {
 @FXML
 private Button buttonStudent;
 @FXML
-private Button buttonTeacher;
+private Button loginBt;
 
     public void openStudentPage(ActionEvent actionEvent) throws IOException {
         Stage switchScene = (Stage) buttonStudent.getScene().getWindow();
@@ -25,8 +25,15 @@ private Button buttonTeacher;
     }
 
     public void openTeacherPage(ActionEvent actionEvent) throws IOException {
-        Stage switchScene = (Stage) buttonTeacher.getScene().getWindow();
+        Stage switchScene = (Stage) loginBt.getScene().getWindow();
         Parent parent = FXMLLoader.load(getClass().getResource("../View/Teacher/2_TeacherLogin.fxml"));
+        Scene scene = new Scene(parent);
+        switchScene.setScene(scene);
+    }
+
+    public void loginSTBt(ActionEvent actionEvent) throws IOException {
+        Stage switchScene = (Stage) loginBt.getScene().getWindow();
+        Parent parent = FXMLLoader.load(getClass().getResource("../View/Teacher/TeacherHomePage.fxml"));
         Scene scene = new Scene(parent);
         switchScene.setScene(scene);
     }

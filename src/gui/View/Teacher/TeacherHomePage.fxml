@@ -1,13 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
 
-
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.View.Teacher.TeacherHomePage">
+<AnchorPane prefHeight="1024.0" prefWidth="768.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.View.Teacher.TeacherHomePage">
    <children>
-      <Button layoutX="474.0" layoutY="315.0" mnemonicParsing="false" text="Close" />
-      <Button layoutX="258.0" layoutY="315.0" mnemonicParsing="false" text="statistik" />
-      <Button layoutX="353.0" layoutY="315.0" mnemonicParsing="false" text="Student Info" />
+      <Button layoutX="333.0" layoutY="850.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="102.0" text="Close">
+         <font>
+            <Font size="16.0" />
+         </font></Button>
+      <Button layoutX="39.0" layoutY="850.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="94.0" text="statistik">
+         <font>
+            <Font size="16.0" />
+         </font></Button>
+      <Button layoutX="165.0" layoutY="850.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="133.0" text="Student Info">
+         <font>
+            <Font size="16.0" />
+         </font></Button>
+      <TableView layoutX="39.0" layoutY="38.0" prefHeight="793.0" prefWidth="489.0">
+        <columns>
+          <TableColumn prefWidth="409.0" text="Student" />
+          <TableColumn minWidth="0.0" prefWidth="79.0" text="\% Fravær" />
+        </columns>
+      </TableView>
    </children>
 </AnchorPane>
