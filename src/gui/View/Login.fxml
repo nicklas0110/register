@@ -2,27 +2,62 @@
 
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Box?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
 <AnchorPane prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.Controller.SelectPositionController">
    <children>
-      <Text layoutX="685.0" layoutY="197.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Login" textAlignment="CENTER" wrappingWidth="549.1650390625">
+      <Box depth="100" height="100.0" layoutX="960.0" width="1.0" />
+      <ImageView fitHeight="1080.0" fitWidth="1920.0" pickOnBounds="true">
+         <image>
+            <Image url="@Pictures/EASV-R.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="125.0" fitWidth="350.0" layoutX="30.0" layoutY="33.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Pictures/logo.9350c8a6965b03d5e9c3ba3f9cda80c0.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="536.0" layoutY="200.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome to Erhvervsakademi SydVest" textAlignment="CENTER" wrappingWidth="850.1650390625">
          <font>
-            <Font size="96.0" />
+            <Font size="48.0" />
          </font>
       </Text>
-      <Button fx:id="loginBt" layoutX="846.0" layoutY="432.0" mnemonicParsing="false" onAction="#loginSTBt" prefHeight="95.0" prefWidth="201.0" text="Login">
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffffffc0" height="570.0" layoutX="361.0" layoutY="276.0" stroke="BLACK" strokeType="INSIDE" width="1200.0" />
+      <Button fx:id="loginBt" layoutX="361.0" layoutY="746.0" mnemonicParsing="false" onAction="#loginSTBt" prefHeight="175.0" prefWidth="1200.0" style="-fx-background-color: #009EE3;" text="Login" textFill="WHITE">
          <font>
-            <Font size="40.0" />
+            <Font name="System Bold" size="40.0" />
          </font>
       </Button>
-      <TextField layoutX="748.0" layoutY="268.0" prefHeight="45.0" prefWidth="396.0" />
-      <TextField layoutX="751.0" layoutY="336.0" prefHeight="45.0" prefWidth="396.0" />
-      <Text layoutX="733.0" layoutY="660.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Scan Student Id to Login" textAlignment="CENTER" wrappingWidth="411.1650390625">
+      <TextField layoutX="512.0" layoutY="396.0" prefHeight="75.0" prefWidth="1000.0" promptText="Username" style="-fx-background-color: 0;">
          <font>
-            <Font size="59.0" />
+            <Font name="System Bold" size="24.0" />
+         </font></TextField>
+      <Line endX="899.0" layoutX="613.0" layoutY="471.0" startX="-100.0" />
+      <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="405.0" layoutY="406.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Pictures/1200px-OOjs_UI_icon_userAvatar.svg.png" />
+         </image>
+      </ImageView>
+      <TextField layoutX="512.0" layoutY="566.0" prefHeight="75.0" prefWidth="1000.0" promptText="Password" style="-fx-background-color: 0;">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font></TextField>
+      <Line endX="899.0" layoutX="613.0" layoutY="641.0" startX="-100.0" />
+      <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="405.0" layoutY="574.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Pictures/61457.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="763.0" layoutY="1010.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Scan Student ID to Login" textAlignment="CENTER" wrappingWidth="396.0">
+         <font>
+            <Font size="24.0" />
          </font>
       </Text>
    </children>
