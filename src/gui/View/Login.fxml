@@ -35,7 +35,7 @@
             <Font name="System Bold" size="40.0" />
          </font>
       </Button>
-      <TextField fx:id="usernameTf" layoutX="512.0" layoutY="396.0" onAction="#usernameTf" prefHeight="75.0" prefWidth="1000.0" promptText="Username" style="-fx-background-color: 0;">
+      <TextField fx:id="usernameTf" layoutX="512.0" layoutY="396.0" prefHeight="75.0" prefWidth="1000.0" promptText="Username" style="-fx-background-color: 0;">
          <font>
             <Font name="System Bold" size="24.0" />
          </font></TextField>
@@ -45,7 +45,7 @@
             <Image url="@Pictures/1200px-OOjs_UI_icon_userAvatar.svg.png" />
          </image>
       </ImageView>
-      <TextField fx:id="passwordTf" layoutX="512.0" layoutY="566.0" onAction="#passwordTf" prefHeight="75.0" prefWidth="1000.0" promptText="Password" style="-fx-background-color: 0;">
+      <TextField fx:id="passwordTf" layoutX="512.0" layoutY="566.0" prefHeight="75.0" prefWidth="1000.0" promptText="Password" style="-fx-background-color: 0;">
          <font>
             <Font name="System Bold" size="24.0" />
          </font></TextField>
@@ -55,10 +55,11 @@
             <Image url="@Pictures/61457.png" />
          </image>
       </ImageView>
-      <Text layoutX="763.0" layoutY="1010.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Scan Student ID to Login" textAlignment="CENTER" wrappingWidth="396.0">
+      <Text layoutX="763.0" layoutY="1010.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Scan School ID to Login" textAlignment="CENTER" wrappingWidth="396.0">
          <font>
             <Font size="24.0" />
          </font>
       </Text>
+      <Button fx:id="loginBtTEST" layoutX="1112.0" layoutY="896.0" mnemonicParsing="false" onAction="#loginBtTEST" style="-fx-background-color: #009EE3;" text="[Teacher Login] (Remove when different authority logins have been implemented)" />
    </children>
 </AnchorPane>

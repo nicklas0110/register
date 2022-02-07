@@ -37,4 +37,7 @@ private Button loginBt;
         Scene scene = new Scene(parent);
         switchScene.setScene(scene);
     }
+
+    public void loginBtTEST(ActionEvent actionEvent) {
+    }
 }
