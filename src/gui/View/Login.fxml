@@ -11,7 +11,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.Controller.SelectPositionController">
+<AnchorPane prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.Controller.LoginController">
    <children>
       <Box depth="100" height="100.0" layoutX="960.0" width="1.0" />
       <ImageView fitHeight="1080.0" fitWidth="1920.0" pickOnBounds="true">
@@ -30,7 +30,7 @@
          </font>
       </Text>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffffffc0" height="570.0" layoutX="361.0" layoutY="276.0" stroke="BLACK" strokeType="INSIDE" width="1200.0" />
-      <Button fx:id="loginBt" layoutX="361.0" layoutY="746.0" mnemonicParsing="false" onAction="#loginSTBt" prefHeight="175.0" prefWidth="1200.0" style="-fx-background-color: #009EE3;" text="Login" textFill="WHITE">
+      <Button fx:id="loginBt" layoutX="361.0" layoutY="746.0" mnemonicParsing="false" onAction="#loginBt" prefHeight="175.0" prefWidth="1200.0" style="-fx-background-color: #009EE3;" text="Login" textFill="WHITE">
          <font>
             <Font name="System Bold" size="40.0" />
          </font>
@@ -60,6 +60,6 @@
             <Font size="24.0" />
          </font>
       </Text>
-      <Button fx:id="loginBtTEST" layoutX="1112.0" layoutY="896.0" mnemonicParsing="false" onAction="#loginBtTEST" style="-fx-background-color: #009EE3;" text="[Teacher Login] (Remove when different authority logins have been implemented)" />
+      <Button fx:id="loginBtTEST" layoutX="1112.0" layoutY="928.0" mnemonicParsing="false" onAction="#loginBtTEST" style="-fx-background-color: #009EE3;" text="[Teacher Login] (Remove when different authority logins have been implemented)" />
    </children>
 </AnchorPane>
