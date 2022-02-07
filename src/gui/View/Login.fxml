@@ -35,7 +35,7 @@
             <Font name="System Bold" size="40.0" />
          </font>
       </Button>
-      <TextField layoutX="512.0" layoutY="396.0" prefHeight="75.0" prefWidth="1000.0" promptText="Username" style="-fx-background-color: 0;">
+      <TextField fx:id="usernameTf" layoutX="512.0" layoutY="396.0" onAction="#usernameTf" prefHeight="75.0" prefWidth="1000.0" promptText="Username" style="-fx-background-color: 0;">
          <font>
             <Font name="System Bold" size="24.0" />
          </font></TextField>
@@ -45,7 +45,7 @@
             <Image url="@Pictures/1200px-OOjs_UI_icon_userAvatar.svg.png" />
          </image>
       </ImageView>
-      <TextField layoutX="512.0" layoutY="566.0" prefHeight="75.0" prefWidth="1000.0" promptText="Password" style="-fx-background-color: 0;">
+      <TextField fx:id="passwordTf" layoutX="512.0" layoutY="566.0" onAction="#passwordTf" prefHeight="75.0" prefWidth="1000.0" promptText="Password" style="-fx-background-color: 0;">
          <font>
             <Font name="System Bold" size="24.0" />
          </font></TextField>
