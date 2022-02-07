@@ -24,7 +24,7 @@
       </Button>
       <ImageView fx:id="studentImage" fitHeight="375.0" fitWidth="315.0" layoutX="560.0" layoutY="56.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@StudentPic.png" />
+            <Image url="@../Pictures/StudentPic.png" />
          </image>
       </ImageView>
       <Text fx:id="userIDTf" layoutX="935.0" layoutY="185.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User ID: XXXX">
@@ -63,7 +63,7 @@
       </Text>
       <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@Image_4.png" />
+            <Image url="@../Pictures/Image_4.png" />
          </image>
       </ImageView>
       <Button fx:id="logoutBt" layoutX="1693.0" layoutY="31.0" mnemonicParsing="false" onAction="#logoutBt" prefHeight="75.0" prefWidth="200.0" style="-fx-background-color: #4B4B4B;" text="Logout" textFill="WHITE">
