@@ -52,7 +52,7 @@
             <Font size="24.0" />
          </font>
       </Text>
-      <Button fx:id="continueBt" layoutX="560.0" layoutY="954.0" mnemonicParsing="false" onAction="#continueBt" prefHeight="70.0" prefWidth="800.0" style="-fx-background-color: #009EE3;" text="Continue" textFill="WHITE">
+      <Button fx:id="continueBt" layoutX="560.0" layoutY="954.0" mnemonicParsing="false" onAction="#continueBt" prefHeight="70.0" prefWidth="800.0" style="-fx-background-color: #009EE3;" text="Student View" textFill="WHITE">
          <font>
             <Font size="24.0" />
          </font></Button>
