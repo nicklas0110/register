@@ -15,6 +15,11 @@ public class Main extends Application {
         primaryStage.setTitle("Register Attendance");
         primaryStage.setScene(new Scene(root));
         primaryStage.show();
+        //primaryStage.setHeight(700);
+        //primaryStage.setHeight(500);
+        //primaryStage.setX(0);
+        //primaryStage.setY(0);
+        primaryStage.setMaximized(true);
 
     }
     public static void main(String[] args) {
