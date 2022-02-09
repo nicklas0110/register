@@ -61,12 +61,12 @@
             <Font size="36.0" />
          </font>
       </Text>
-      <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="75.0" fitWidth="225.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../Pictures/Image_4.png" />
+            <Image url="@../Pictures/EASV%20Logo%20Png.png" />
          </image>
       </ImageView>
-      <Button fx:id="logoutBt" layoutX="955.0" layoutY="19.0" mnemonicParsing="false" onAction="#logoutBt" prefHeight="75.0" prefWidth="200.0" style="-fx-background-color: #4B4B4B;" text="Logout" textFill="WHITE">
+      <Button fx:id="logoutBt" layoutX="965.0" layoutY="14.0" mnemonicParsing="false" onAction="#logoutBt" prefHeight="75.0" prefWidth="200.0" style="-fx-background-color: #4B4B4B;" text="Logout" textFill="WHITE">
          <font>
             <Font size="24.0" />
          </font>

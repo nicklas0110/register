@@ -28,16 +28,16 @@
             <Font size="60.0" />
          </font>
       </Button>
-      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="10.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../Pictures/EASV%20Logo%20Png.png" />
-         </image>
-      </ImageView>
-      <Button fx:id="logoutBtThView" layoutX="961.0" layoutY="46.0" mnemonicParsing="false" onAction="#logoutBtStView" prefHeight="75.0" prefWidth="200.0" style="-fx-background-color: #4B4B4B;" text="Logout" textFill="WHITE">
+      <Button fx:id="logoutBtThView" layoutX="965.0" layoutY="14.0" mnemonicParsing="false" onAction="#logoutBtStView" prefHeight="75.0" prefWidth="200.0" style="-fx-background-color: #4B4B4B;" text="Logout" textFill="WHITE">
          <font>
             <Font size="24.0" />
          </font>
       </Button>
-      <Button fx:id="mainVeiwBtn1" layoutX="10.0" layoutY="7.0" mnemonicParsing="false" onAction="#backMainVeiwBtn" opacity="0.0" prefHeight="134.0" prefWidth="200.0" text="Button" />
+      <Button fx:id="mainVeiwBtn1" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#backMainVeiwBtn" opacity="0.0" prefHeight="52.0" prefWidth="225.0" text="Button" />
+      <ImageView fitHeight="75.0" fitWidth="225.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Pictures/EASV%20Logo%20Png.png" />
+         </image>
+      </ImageView>
     </children>
 </AnchorPane>
