@@ -4,7 +4,7 @@
 #loginBt {
     -fx-background-color: #009EE3;
     -fx-border-color: #707070;
-    -fx-effect: dropshadow(one-pass-box, #707070, 12, 0.0, 0, 0);
+    -fx-effect: dropshadow(one-pass-box, #707070, 6, 0.0, 0, 0);
     -fx-font-size: 30px;
     -fx-font-family: 'Lato', sans-serif;
 }
