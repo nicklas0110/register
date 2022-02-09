@@ -1,30 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.chart.PieChart?>
 <?import javafx.scene.control.Button?>
-<?import javafx.scene.control.TableColumn?>
-<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
 
-<AnchorPane prefHeight="800.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.Controller.TeacherController">
+<AnchorPane prefHeight="730.0" prefWidth="1190.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.Controller.TeacherController">
    <children>
-      <Button fx:id="buttonBack" layoutX="333.0" layoutY="650.0" mnemonicParsing="false" onAction="#Back" prefHeight="50.0" prefWidth="102.0" text="Close">
+      <Button layoutX="321.0" layoutY="679.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="125.0" style="-fx-background-color: #D3D3D3;" text="statistik">
          <font>
             <Font size="16.0" />
          </font></Button>
-      <Button layoutX="39.0" layoutY="650.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="94.0" text="statistik">
+      <Button layoutX="721.0" layoutY="679.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="125.0" style="-fx-background-color: #D3D3D3;" text="Student Info">
          <font>
             <Font size="16.0" />
          </font></Button>
-      <Button layoutX="165.0" layoutY="650.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="133.0" text="Student Info">
+      <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Pictures/Image_4.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="62.0" layoutY="156.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select your class">
          <font>
-            <Font size="16.0" />
-         </font></Button>
-      <TableView layoutX="39.0" layoutY="38.0" prefHeight="593.0" prefWidth="489.0">
-        <columns>
-          <TableColumn prefWidth="409.0" text="Student" />
-          <TableColumn minWidth="0.0" prefWidth="79.0" text="\% Fravær" />
-        </columns>
-      </TableView>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="90.0" layoutY="421.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Students">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <ComboBox fx:id="selectClassMenu" layoutX="62.0" layoutY="173.0" prefHeight="50.0" prefWidth="235.0" promptText="Select Class" />
+      <ComboBox layoutX="62.0" layoutY="441.0" prefHeight="50.0" prefWidth="150.0" />
+      <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="62.0" layoutY="399.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Pictures/1200px-OOjs_UI_icon_userAvatar.svg.png" />
+         </image>
+      </ImageView>
+      <TitledPane layoutX="321.0" layoutY="130.0" prefHeight="531.0" prefWidth="800.0">
+         <content>
+            <SplitPane dividerPositions="0.5" prefHeight="160.0" prefWidth="800.0">
+              <items>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0" />
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                     <children>
+                        <PieChart prefHeight="475.0" prefWidth="396.0" />
+                     </children></AnchorPane>
+              </items>
+            </SplitPane>
+         </content>
+      </TitledPane>
+      <Button fx:id="logoutBt" layoutX="950.0" layoutY="20.0" mnemonicParsing="false" onAction="#logoutBt" prefHeight="75.0" prefWidth="200.0" style="-fx-background-color: #4B4B4B;" text="Logout" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
    </children>
 </AnchorPane>

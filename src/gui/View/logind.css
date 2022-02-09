@@ -17,3 +17,7 @@
 #rectangle {
     -fx-effect: dropshadow(one-pass-box, #707070, 5, 0, 0, 0);
 }
+
+#selectClassMenu {
+    -fx-font-size: 43;
+}
