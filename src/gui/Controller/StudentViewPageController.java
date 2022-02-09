@@ -23,6 +23,10 @@ public class StudentViewPageController {
         switchScene.setScene(scene);
     }
 
-    public void backMainVeiwBtn(ActionEvent actionEvent) {
+    public void backMainVeiwBtn(ActionEvent actionEvent) throws IOException {
+        Stage switchScene = (Stage) logoutBtStView.getScene().getWindow();
+        Parent parent = FXMLLoader.load(getClass().getResource("../View/Student/StudentHomePage.fxml"));
+        Scene scene = new Scene(parent);
+        switchScene.setScene(scene);
     }
 }
