@@ -21,7 +21,11 @@ public class StudentController {
     public void noBt(ActionEvent actionEvent) {
     }
 
-    public void continueBt(ActionEvent actionEvent) {
+    public void continueBt(ActionEvent actionEvent) throws IOException {
+        Stage switchScene = (Stage) logoutBt.getScene().getWindow();
+        Parent parent = FXMLLoader.load(getClass().getResource("../View/Student/StudentViewPage.fxml"));
+        Scene scene = new Scene(parent);
+        switchScene.setScene(scene);
     }
 
     public void logoutBt(ActionEvent actionEvent) throws IOException {
