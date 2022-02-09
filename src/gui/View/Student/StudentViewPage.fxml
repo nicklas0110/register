@@ -7,7 +7,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="711.0" prefWidth="1183.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.Controller.StudentViewPageController">
+<AnchorPane prefHeight="730.0" prefWidth="1190.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.Controller.StudentViewPageController">
    <children>
       <PieChart fx:id="pieChartAbsent" layoutX="570.0" layoutY="221.0" prefHeight="526.0" prefWidth="620.0" />
       <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">

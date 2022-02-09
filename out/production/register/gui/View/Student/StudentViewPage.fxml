@@ -10,7 +10,7 @@
 <AnchorPane prefHeight="711.0" prefWidth="1183.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.Controller.StudentViewPageController">
    <children>
       <PieChart fx:id="pieChartAbsent" layoutX="570.0" layoutY="221.0" prefHeight="526.0" prefWidth="620.0" />
-      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="10.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../Pictures/Image_4.png" />
          </image>
@@ -20,6 +20,6 @@
             <Font size="24.0" />
          </font>
       </Button>
-      <Button fx:id="mainVeiwBtn" layoutX="4.0" layoutY="4.0" mnemonicParsing="false" onAction="#backMainVeiwBtn" opacity="0.0" prefHeight="139.0" prefWidth="213.0" text="Button" />
+      <Button fx:id="mainVeiwBtn" layoutY="-3.0" mnemonicParsing="false" onAction="#backMainVeiwBtn" opacity="0.0" prefHeight="134.0" prefWidth="200.0" text="Button" />
    </children>
 </AnchorPane>
