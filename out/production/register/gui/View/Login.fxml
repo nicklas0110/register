@@ -11,10 +11,10 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="691.0" prefWidth="1180.0" stylesheets="/gui/View/logind.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.Controller.LoginController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="730.0" prefWidth="1190.0" stylesheets="/gui/View/logind.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.Controller.LoginController">
    <children>
-     <Box depth="100" height="100.0" layoutX="960.0" width="1.0" />
-      <ImageView fitHeight="711.0" fitWidth="1183.0" layoutX="-3.0" layoutY="-19.0" pickOnBounds="true">
+     <Box depth="100" height="730.0" layoutX="595.0" layoutY="360.0" width="1.0" />
+      <ImageView fitHeight="730.0" fitWidth="1190.0" pickOnBounds="true">
          <image>
             <Image url="@Pictures/EASV-R.jpg" />
          </image>
@@ -24,12 +24,12 @@
             <Image url="@Pictures/logo.9350c8a6965b03d5e9c3ba3f9cda80c0.png" />
          </image>
       </ImageView>
-      <Text fx:id="overskrift" layoutY="151.796875" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome to Erhvervsakademi SydVest" textAlignment="CENTER" wrappingWidth="1178.1646094322205" AnchorPane.bottomAnchor="515.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="-3.0" AnchorPane.topAnchor="100.0">
+      <Text fx:id="overskrift" layoutX="192.0" layoutY="146.1640625" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome to Erhvervsakademi SydVest" textAlignment="CENTER" wrappingWidth="806.1646094322205" AnchorPane.bottomAnchor="573.796875" AnchorPane.leftAnchor="192.0" AnchorPane.rightAnchor="191.83539056777954" AnchorPane.topAnchor="103.0">
          <font>
-            <Font size="48.0" />
+            <Font size="40.0" />
          </font>
       </Text>
-      <Rectangle fx:id="rectangle" arcHeight="5.0" arcWidth="5.0" fill="#ffffffc0" height="442.0" layoutX="171.0" layoutY="196.0" stroke="BLACK" strokeType="INSIDE" width="845.0" />
+      <Rectangle fx:id="rectangle" arcHeight="5.0" arcWidth="5.0" fill="#ffffffc0" height="442.0" layoutX="172.0" layoutY="195.0" stroke="BLACK" strokeType="INSIDE" width="845.0" />
       <TextField fx:id="usernameTf" layoutX="347.0" layoutY="274.0" prefHeight="75.0" prefWidth="637.0" promptText="Username" style="-fx-background-color: 0;">
          <font>
             <Font name="System Bold" size="24.0" />
@@ -52,7 +52,7 @@
             <Image url="@Pictures/61457.png" />
          </image>
       </ImageView>
-      <Text layoutX="403.0" layoutY="668.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Scan School ID to Login" textAlignment="CENTER" wrappingWidth="396.0">
+      <Text layoutX="397.0" layoutY="690.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Scan School ID to Login" textAlignment="CENTER" wrappingWidth="396.0">
          <font>
             <Font size="18.0" />
          </font>
