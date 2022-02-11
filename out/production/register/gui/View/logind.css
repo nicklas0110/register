@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 
-#loginBt {
+#loginSudentBt {
     -fx-background-color: #009EE3;
     -fx-border-color: #707070;
     -fx-effect: dropshadow(one-pass-box, #707070, 6, 0.0, 0, 0);
@@ -32,6 +32,4 @@
     -fx-max-width: 10px;
 }
 
-#yesBt{
-
-}
+ 
