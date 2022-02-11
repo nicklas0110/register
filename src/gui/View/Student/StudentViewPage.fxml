@@ -65,7 +65,7 @@
                   <Blend />
                </effect>
             </CheckBox>
-            <CheckBox layoutX="211.0" layoutY="494.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" textOverrun="CLIP">
+            <CheckBox layoutX="207.0" layoutY="495.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" textOverrun="CLIP">
                <effect>
                   <Blend />
                </effect>

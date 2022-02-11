@@ -2,6 +2,8 @@
 
 <?import javafx.scene.chart.PieChart?>
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.effect.Blend?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
@@ -18,21 +20,74 @@
                   <Font size="28.0" />
                </font>
             </Text>
+            <Text fill="WHITE" layoutX="26.0" layoutY="234.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SDE2.A.22" textAlignment="CENTER" wrappingWidth="186.25390625">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="26.0" layoutY="295.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ITO2.AB.22" textAlignment="CENTER" wrappingWidth="186.25390625">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="26.0" layoutY="359.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SCO2.A.22" textAlignment="CENTER" wrappingWidth="186.25390625">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="26.0" layoutY="424.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DBOS.AB.22" textAlignment="CENTER" wrappingWidth="186.25390625">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="14.0" layoutY="516.0" strokeType="OUTSIDE" strokeWidth="0.0" text="See all" textAlignment="CENTER" wrappingWidth="186.25390625">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <CheckBox layoutX="212.0" layoutY="219.0" mnemonicParsing="false" textOverrun="CLIP">
+               <effect>
+                  <Blend />
+               </effect>
+            </CheckBox>
+            <CheckBox layoutX="212.0" layoutY="282.0" mnemonicParsing="false" textOverrun="CLIP">
+               <effect>
+                  <Blend />
+               </effect>
+            </CheckBox>
+            <CheckBox layoutX="212.0" layoutY="342.0" mnemonicParsing="false" textOverrun="CLIP">
+               <effect>
+                  <Blend />
+               </effect>
+            </CheckBox>
+            <CheckBox layoutX="212.0" layoutY="407.0" mnemonicParsing="false" textOverrun="CLIP">
+               <effect>
+                  <Blend />
+               </effect>
+            </CheckBox>
+            <CheckBox layoutX="211.0" layoutY="494.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" textOverrun="CLIP">
+               <effect>
+                  <Blend />
+               </effect>
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </CheckBox>
          </children>
       </Pane>
-      <PieChart fx:id="pieChartAbsent" layoutX="607.0" layoutY="153.0" prefHeight="451.0" prefWidth="520.0" style="-fx-background-color: red;" />
+      <PieChart fx:id="pieChartAbsent" layoutX="405.0" layoutY="140.0" prefHeight="525.0" prefWidth="742.0" style="-fx-background-color: red;" />
       <ImageView fitHeight="75.0" fitWidth="225.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../Pictures/logo.9350c8a6965b03d5e9c3ba3f9cda80c0.png" />
          </image>
       </ImageView>
       <Button fx:id="mainVeiwBtn" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#backMainVeiwBtn" opacity="0.0" prefHeight="53.0" prefWidth="225.0" text="Button" />
-      <Button fx:id="logoutBtStView" layoutX="976.0" layoutY="14.0" mnemonicParsing="false" onAction="#logoutBtStView" prefHeight="75.0" prefWidth="200.0" style="-fx-background-color: #4B4B4B;" text="Logout" textFill="WHITE">
+      <Button fx:id="logoutBtStView" layoutX="1016.0" layoutY="14.0" mnemonicParsing="false" onAction="#logoutBtStView" prefHeight="50.0" prefWidth="150.0" style="-fx-background-color: transparent; -fx-border-color: black;" text="Logout">
          <font>
             <Font size="24.0" />
          </font>
       </Button>
-      <Text layoutX="437.0" layoutY="103.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Attendance analysis dashborad">
+      <Text layoutX="405.0" layoutY="64.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Attendance analysis dashborad">
          <font>
             <Font size="36.0" />
          </font>
