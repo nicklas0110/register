@@ -13,7 +13,7 @@
    <children>
       <Pane prefHeight="730.0" prefWidth="1190.0" style="-fx-background-color: #4B4B4B;">
          <children>
-            <Button fx:id="logoutBt" layoutX="1016.0" layoutY="14.0" mnemonicParsing="false" onAction="#logoutBt" prefHeight="50.0" prefWidth="150.0" style="-fx-background-color: #4B4B4B; -fx-border-color: white;" text="Logout" textFill="WHITE">
+            <Button fx:id="logoutBt" layoutX="1026.0" layoutY="14.0" mnemonicParsing="false" onAction="#logoutBt" prefHeight="50.0" prefWidth="150.0" style="-fx-background-color: #4B4B4B; -fx-border-color: white;" text="Logout" textFill="WHITE">
                <font>
                   <Font size="24.0" />
                </font>

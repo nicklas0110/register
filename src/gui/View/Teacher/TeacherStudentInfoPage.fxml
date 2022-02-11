@@ -29,7 +29,7 @@
             <Font size="60.0" />
          </font>
       </Button>
-      <Button fx:id="logoutBtThView" layoutX="1016.0" layoutY="14.0" mnemonicParsing="false" onAction="#logoutBtStView" prefHeight="50.0" prefWidth="150.0" style="-fx-background-color: transparent; -fx-border-color: black;" text="Logout">
+      <Button fx:id="logoutBtThView" layoutX="1026.0" layoutY="14.0" mnemonicParsing="false" onAction="#logoutBtStView" prefHeight="50.0" prefWidth="150.0" style="-fx-background-color: transparent; -fx-border-color: black;" text="Logout">
          <font>
             <Font size="24.0" />
          </font>
@@ -50,9 +50,9 @@
       <Text layoutX="405.0" layoutY="105.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Age:" />
       <Text layoutX="405.0" layoutY="144.0" strokeType="OUTSIDE" strokeWidth="0.0" text="E-mail:" />
       <Text layoutX="405.0" layoutY="187.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Telefon nr: " />
-      <Text layoutX="479.0" layoutY="71.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&quot;Name&quot;" />
-      <Text layoutX="479.0" layoutY="105.0" strokeType="OUTSIDE" strokeWidth="0.0" text="xx" />
-      <Text layoutX="479.0" layoutY="144.0" strokeType="OUTSIDE" strokeWidth="0.0" text="sample@gmail.com" />
-      <Text layoutX="479.0" layoutY="187.0" strokeType="OUTSIDE" strokeWidth="0.0" text="+00 xxxxxxxx" />
+      <Text layoutX="479.0" layoutY="71.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Henrik" />
+      <Text layoutX="479.0" layoutY="105.0" strokeType="OUTSIDE" strokeWidth="0.0" text="26" />
+      <Text layoutX="479.0" layoutY="144.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Henrik@gmail.com" />
+      <Text layoutX="479.0" layoutY="187.0" strokeType="OUTSIDE" strokeWidth="0.0" text="+45 69696969" />
     </children>
 </AnchorPane>
