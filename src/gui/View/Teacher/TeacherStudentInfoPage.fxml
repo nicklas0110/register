@@ -7,23 +7,24 @@
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
 
 <AnchorPane prefHeight="730.0" prefWidth="1190.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.Controller.TeacherStudentInfoController">
     <children>
         <Button fx:id="mainVeiwBtn" layoutY="-3.0" mnemonicParsing="false" onAction="#backMainVeiwBtn" opacity="0.0" prefHeight="134.0" prefWidth="200.0" text="Button" />
-        <TableView layoutX="47.0" layoutY="178.0" prefHeight="480.0" prefWidth="860.0">
+        <TableView layoutX="142.0" layoutY="300.0" prefHeight="395.0" prefWidth="815.0">
             <columns>
                 <TableColumn prefWidth="136.0" text="Dato" />
                 <TableColumn prefWidth="183.0" text="Complait Title" />
                 <TableColumn prefWidth="540.0" text="Complait Details" />
             </columns>
         </TableView>
-      <Button fx:id="yesBt" layoutX="945.0" layoutY="494.0" mnemonicParsing="false" onAction="#YesBt" prefHeight="91.0" prefWidth="233.0" style="-fx-background-color: #46C752;" text="✔" textFill="WHITE">
+      <Button fx:id="yesBt" layoutX="1000.0" layoutY="300.0" mnemonicParsing="false" onAction="#yesBt" prefHeight="100.0" prefWidth="150.0" style="-fx-background-color: #46C752;" text="✔" textFill="WHITE">
          <font>
             <Font size="60.0" />
          </font>
       </Button>
-      <Button fx:id="noBt" layoutX="945.0" layoutY="343.0" mnemonicParsing="false" onAction="#noBt" prefHeight="91.0" prefWidth="233.0" style="-fx-background-color: #C00D0D;" text="☓" textFill="WHITE">
+      <Button fx:id="noBt" layoutX="1000.0" layoutY="465.0" mnemonicParsing="false" onAction="#noBt" prefHeight="100.0" prefWidth="150.0" style="-fx-background-color: #C00D0D;" text="☓" textFill="WHITE">
          <font>
             <Font size="60.0" />
          </font>
@@ -34,10 +35,24 @@
          </font>
       </Button>
       <Button fx:id="mainVeiwBtn1" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#backMainVeiwBtn" opacity="0.0" prefHeight="52.0" prefWidth="225.0" text="Button" />
-      <ImageView fitHeight="75.0" fitWidth="225.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="30.0" fitWidth="110.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../Pictures/EASV%20Logo%20Png.png" />
          </image>
       </ImageView>
+      <ImageView fx:id="studentImage" fitHeight="243.0" fitWidth="219.0" layoutX="142.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Pictures/StudentPic.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="1000.0" layoutY="660.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="150.0" style="-fx-background-color: #009EE3;" text="Return" textFill="WHITE" />
+      <Text layoutX="405.0" layoutY="95.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name:" />
+      <Text layoutX="405.0" layoutY="129.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Age:" />
+      <Text layoutX="405.0" layoutY="168.0" strokeType="OUTSIDE" strokeWidth="0.0" text="E-mail:" />
+      <Text layoutX="405.0" layoutY="211.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Telefon nr: " />
+      <Text layoutX="479.0" layoutY="95.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&quot;Name&quot;" />
+      <Text layoutX="479.0" layoutY="129.0" strokeType="OUTSIDE" strokeWidth="0.0" text="xx" />
+      <Text layoutX="479.0" layoutY="168.0" strokeType="OUTSIDE" strokeWidth="0.0" text="sample@gmail.com" />
+      <Text layoutX="479.0" layoutY="211.0" strokeType="OUTSIDE" strokeWidth="0.0" text="+00 xxxxxxxx" />
     </children>
 </AnchorPane>

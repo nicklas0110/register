@@ -6,7 +6,6 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.shape.Line?>
-<?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
@@ -19,55 +18,57 @@
                   <Font size="24.0" />
                </font>
             </Button>
+            <Line endX="261.20001220703125" layoutX="570.0" layoutY="205.0" startX="-18.26666259765625" stroke="WHITE" />
+            <Line endX="-18.26666259765625" endY="236.0" layoutX="946.0" layoutY="226.0" startX="-18.26666259765625" stroke="WHITE" />
+            <Text fx:id="DateTf" fill="WHITE" layoutX="523.0" layoutY="306.0" strokeType="OUTSIDE" strokeWidth="0.0" text="12/6/2022">
+               <font>
+                  <Font size="32.0" />
+               </font>
+            </Text>
+            <Line endX="-18.26666259765625" endY="205.66665649414062" layoutX="304.0" layoutY="249.0" startX="-18.26666259765625" stroke="WHITE" />
+            <Pane layoutX="281.0" layoutY="515.0" prefHeight="200.0" prefWidth="648.0" style="-fx-border-color: white;">
+               <children>
+                  <Button fx:id="continueBt" layoutX="204.0" layoutY="108.0" mnemonicParsing="false" onAction="#continueBt" prefHeight="70.0" prefWidth="242.0" style="-fx-background-color: #009EE3;" text="Student View" textFill="WHITE">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Button>
+                  <Text fill="WHITE" layoutX="106.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" text="See your absent percentage">
+                     <font>
+                        <Font size="36.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+            <Button fx:id="noBt" layoutX="620.0" layoutY="366.0" mnemonicParsing="false" onAction="#noBt" prefHeight="92.0" prefWidth="261.0" style="-fx-background-color: #C00D0D;" text="☓" textFill="WHITE">
+               <font>
+                  <Font size="39.0" />
+               </font>
+            </Button>
          </children></Pane>
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffffff00" height="272.0" layoutX="279.0" layoutY="256.0" stroke="WHITE" strokeType="INSIDE" width="658.0" />
-      <Button fx:id="yesBt" layoutX="656.0" layoutY="368.0" mnemonicParsing="false" onAction="#YesBt" prefHeight="91.0" prefWidth="233.0" style="-fx-background-color: #46C752;" text="✔" textFill="WHITE">
+      <Button fx:id="yesBt" layoutX="337.0" layoutY="367.0" mnemonicParsing="false" onAction="#YesBt" prefHeight="91.0" prefWidth="256.0" style="-fx-background-color: #46C752;" text="✔" textFill="WHITE">
          <font>
-            <Font size="60.0" />
+            <Font size="42.0" />
          </font>
       </Button>
-      <Button fx:id="noBt" layoutX="327.0" layoutY="368.0" mnemonicParsing="false" onAction="#noBt" prefHeight="91.0" prefWidth="233.0" style="-fx-background-color: #C00D0D;" text="☓" textFill="WHITE">
-         <font>
-            <Font size="60.0" />
-         </font>
-      </Button>
-      <ImageView fx:id="studentImage" fitHeight="243.0" fitWidth="219.0" layoutX="286.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="studentImage" fitHeight="204.0" fitWidth="200.0" layoutX="286.0" layoutY="37.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../Pictures/StudentPic.png" />
+            <Image url="@../../../../../../Datamatiker/2%20Semester/SDE2/Compulsory%20Assignment%201/Skærmbillede%202022-02-05%20150833.jpg" />
          </image>
       </ImageView>
-      <Text fx:id="userIDTf" fill="WHITE" layoutX="516.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User ID: XXXX" wrappingWidth="225.63671875">
+      <Text fx:id="userIDTf" fill="WHITE" layoutX="545.0" layoutY="63.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User ID: 2240" wrappingWidth="225.63671875">
          <font>
             <Font size="26.0" />
          </font>
       </Text>
-      <Text fx:id="educationTf" fill="WHITE" layoutX="510.0" layoutY="115.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Education: Datamatiker">
+      <Text fx:id="educationTf" fill="WHITE" layoutX="545.0" layoutY="115.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Education: Datamatiker">
          <font>
             <Font size="26.0" />
          </font>
       </Text>
-      <Text fx:id="absentPercentTf" fill="WHITE" layoutX="510.0" layoutY="166.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Absent percentage: 84%">
+      <Text fx:id="absentPercentTf" fill="WHITE" layoutX="545.0" layoutY="166.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Absent percentage: 84%">
          <font>
             <Font size="26.0" />
-         </font>
-      </Text>
-      <Text fx:id="DateTf" fill="WHITE" layoutX="549.0" layoutY="314.0" strokeType="OUTSIDE" strokeWidth="0.0" text="xx/xx/xx">
-         <font>
-            <Font size="36.0" />
-         </font>
-      </Text>
-      <Text fx:id="timeTf" fill="WHITE" layoutX="551.0" layoutY="349.0" strokeType="OUTSIDE" strokeWidth="0.0" text="9:00 - 11:30">
-         <font>
-            <Font size="24.0" />
-         </font>
-      </Text>
-      <Button fx:id="continueBt" layoutX="208.0" layoutY="608.0" mnemonicParsing="false" onAction="#continueBt" prefHeight="70.0" prefWidth="800.0" style="-fx-background-color: #009EE3;" text="Student View" textFill="WHITE">
-         <font>
-            <Font size="24.0" />
-         </font></Button>
-      <Text fill="WHITE" layoutX="274.0" layoutY="578.0" strokeType="OUTSIDE" strokeWidth="0.0" text="See your absent percentage">
-         <font>
-            <Font size="36.0" />
          </font>
       </Text>
       <ImageView fitHeight="75.0" fitWidth="225.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
@@ -75,6 +76,5 @@
             <Image url="@../Pictures/logo.9350c8a6965b03d5e9c3ba3f9cda80c0.png" />
          </image>
       </ImageView>
-      <Line endX="356.0" layoutX="568.0" layoutY="242.0" startX="-72.0" stroke="WHITE" />
    </children>
 </AnchorPane>

@@ -16,7 +16,7 @@
    <children>
       <Pane prefHeight="730.0" prefWidth="365.0" style="-fx-background-color: #4B4B4B;">
          <children>
-            <Text fill="WHITE" layoutX="36.0" layoutY="149.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Chose Your Subject " textAlignment="CENTER" wrappingWidth="293.25390625">
+            <Text fill="WHITE" layoutX="77.0" layoutY="148.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Chose Your Subject " textAlignment="CENTER" wrappingWidth="248.25390625">
                <font>
                   <Font size="28.0" />
                </font>
@@ -74,7 +74,7 @@
                   <Font size="19.0" />
                </font>
             </CheckBox>
-            <Line endX="55.0" layoutX="164.0" layoutY="174.0" startX="-100.0" stroke="WHITE" />
+            <Line endX="55.0" layoutX="177.0" layoutY="174.0" startX="-100.0" stroke="WHITE" />
          </children>
       </Pane>
       <PieChart fx:id="pieChartAbsent" layoutX="405.0" layoutY="140.0" prefHeight="525.0" prefWidth="742.0" style="-fx-background-color: red;" />
