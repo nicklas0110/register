@@ -15,7 +15,7 @@ public class LoginController {
 @FXML
 private Button loginBt;
 @FXML
-private Button loginBtTEST;
+private Button loginBtT;
 
 
     public void loginBt(ActionEvent actionEvent) throws IOException {
@@ -25,8 +25,8 @@ private Button loginBtTEST;
         switchScene.setScene(scene);
     }
 
-    public void loginBtTEST(ActionEvent actionEvent) throws IOException {
-        Stage switchScene = (Stage) loginBtTEST.getScene().getWindow();
+    public void loginBtT(ActionEvent actionEvent) throws IOException {
+        Stage switchScene = (Stage) loginBtT.getScene().getWindow();
         Parent parent = FXMLLoader.load(getClass().getResource("../View/Teacher/TeacherHomePage.fxml"));
         Scene scene = new Scene(parent);
         switchScene.setScene(scene);
