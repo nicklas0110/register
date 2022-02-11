@@ -21,27 +21,27 @@
                   <Font size="28.0" />
                </font>
             </Text>
-            <Text fill="WHITE" layoutX="80.0" layoutY="235.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SDE2.A.22" textAlignment="CENTER" wrappingWidth="89.25390625">
+            <Text fill="WHITE" layoutX="80.0" layoutY="235.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SDE2.A.22" wrappingWidth="89.25390625">
                <font>
                   <Font size="20.0" />
                </font>
             </Text>
-            <Text fill="WHITE" layoutX="73.0" layoutY="298.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ITO2.AB.22" textAlignment="CENTER" wrappingWidth="103.25390625">
+            <Text fill="WHITE" layoutX="80.0" layoutY="298.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ITO2.AB.22" wrappingWidth="103.25390625">
                <font>
                   <Font size="20.0" />
                </font>
             </Text>
-            <Text fill="WHITE" layoutX="70.0" layoutY="358.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SCO2.A.22" textAlignment="CENTER" wrappingWidth="97.25390625">
+            <Text fill="WHITE" layoutX="80.0" layoutY="358.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SCO2.A.22" wrappingWidth="97.25390625">
                <font>
                   <Font size="20.0" />
                </font>
             </Text>
-            <Text fill="WHITE" layoutX="70.0" layoutY="423.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DBOS.AB.22" textAlignment="CENTER" wrappingWidth="109.25390625">
+            <Text fill="WHITE" layoutX="80.0" layoutY="423.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DBOS.AB.22" wrappingWidth="109.25390625">
                <font>
                   <Font size="20.0" />
                </font>
             </Text>
-            <Text fill="WHITE" layoutX="73.0" layoutY="518.0" strokeType="OUTSIDE" strokeWidth="0.0" text="See all" textAlignment="CENTER" wrappingWidth="75.25390625">
+            <Text fill="WHITE" layoutX="80.0" layoutY="518.0" strokeType="OUTSIDE" strokeWidth="0.0" text="See all" wrappingWidth="75.25390625">
                <font>
                   <Font size="26.0" />
                </font>
