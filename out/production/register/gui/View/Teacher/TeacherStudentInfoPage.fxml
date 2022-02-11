@@ -35,7 +35,7 @@
          </font>
       </Button>
       <Button fx:id="mainVeiwBtn1" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#backMainVeiwBtn" opacity="0.0" prefHeight="52.0" prefWidth="225.0" text="Button" />
-      <ImageView fitHeight="30.0" fitWidth="110.0" layoutX="14.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="35.0" fitWidth="120.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../Pictures/EASV%20Logo%20Png.png" />
          </image>
