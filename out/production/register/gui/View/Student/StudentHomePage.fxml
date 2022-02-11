@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.Cursor?>
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.ColorInput?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
@@ -9,9 +12,9 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane prefHeight="730.0" prefWidth="1190.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.Controller.StudentController">
+<AnchorPane prefHeight="730.0" prefWidth="1190.0" stylesheets="/gui/View/logind.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.Controller.StudentController">
    <children>
-      <Pane prefHeight="730.0" prefWidth="1190.0" style="-fx-background-color: #4B4B4B;">
+      <Pane cache="true" prefHeight="730.0" prefWidth="1190.0" style="-fx-background-color: #4B4B4B;">
          <children>
             <Button fx:id="logoutBt" layoutX="1026.0" layoutY="14.0" mnemonicParsing="false" onAction="#logoutBt" prefHeight="50.0" prefWidth="150.0" style="-fx-background-color: #4B4B4B; -fx-border-color: white;" text="Logout" textFill="WHITE">
                <font>
@@ -19,7 +22,6 @@
                </font>
             </Button>
             <Line endX="261.20001220703125" layoutX="565.0" layoutY="205.0" startX="-18.26666259765625" stroke="WHITE" />
-            <Line endX="-18.26666259765625" endY="236.0" layoutX="946.0" layoutY="226.0" startX="-18.26666259765625" stroke="WHITE" />
             <Text fx:id="DateTf" fill="WHITE" layoutX="523.0" layoutY="306.0" strokeType="OUTSIDE" strokeWidth="0.0" text="12/6/2022">
                <font>
                   <Font size="32.0" />
@@ -40,17 +42,27 @@
                   </Text>
                </children>
             </Pane>
-            <Button fx:id="noBt" layoutX="620.0" layoutY="366.0" mnemonicParsing="false" onAction="#noBt" prefHeight="92.0" prefWidth="261.0" style="-fx-background-color: #C00D0D;" text="☓" textFill="WHITE">
+            <Line endX="-18.26666259765625" endY="205.66665649414062" layoutX="947.0" layoutY="248.0" startX="-18.26666259765625" stroke="WHITE" />
+            <JFXButton fx:id="yesBt" buttonType="RAISED" layoutX="342.0" layoutY="365.0" prefHeight="92.0" prefWidth="242.0" style="-fx-background-color: #46C752;" text="✔" textFill="WHITE">
                <font>
-                  <Font size="39.0" />
+                  <Font size="29.0" />
                </font>
-            </Button>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </JFXButton>
+            <JFXButton fx:id="noBt" buttonType="RAISED" layoutX="618.0" layoutY="365.0" prefHeight="92.0" prefWidth="242.0" ripplerFill="WHITE" style="-fx-background-color: #C00D0D;" text="☓" textFill="WHITE">
+               <font>
+                  <Font size="29.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <effect>
+                  <ColorInput height="35.09" paint="#ff0000ba" width="105.28" />
+               </effect>
+            </JFXButton>
          </children></Pane>
-      <Button fx:id="yesBt" layoutX="337.0" layoutY="367.0" mnemonicParsing="false" onAction="#YesBt" prefHeight="91.0" prefWidth="256.0" style="-fx-background-color: #46C752;" text="✔" textFill="WHITE">
-         <font>
-            <Font size="42.0" />
-         </font>
-      </Button>
       <ImageView fx:id="studentImage" fitHeight="200.0" fitWidth="200.0" layoutX="286.0" layoutY="45.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../Pictures/Skærmbillede%202022-02-05%20150833.jpg" />
