@@ -8,6 +8,7 @@
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
@@ -20,29 +21,29 @@
                   <Font size="28.0" />
                </font>
             </Text>
-            <Text fill="WHITE" layoutX="26.0" layoutY="234.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SDE2.A.22" textAlignment="CENTER" wrappingWidth="186.25390625">
+            <Text fill="WHITE" layoutX="80.0" layoutY="235.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SDE2.A.22" textAlignment="CENTER" wrappingWidth="89.25390625">
                <font>
                   <Font size="20.0" />
                </font>
             </Text>
-            <Text fill="WHITE" layoutX="26.0" layoutY="295.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ITO2.AB.22" textAlignment="CENTER" wrappingWidth="186.25390625">
+            <Text fill="WHITE" layoutX="73.0" layoutY="298.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ITO2.AB.22" textAlignment="CENTER" wrappingWidth="103.25390625">
                <font>
                   <Font size="20.0" />
                </font>
             </Text>
-            <Text fill="WHITE" layoutX="26.0" layoutY="359.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SCO2.A.22" textAlignment="CENTER" wrappingWidth="186.25390625">
+            <Text fill="WHITE" layoutX="70.0" layoutY="358.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SCO2.A.22" textAlignment="CENTER" wrappingWidth="97.25390625">
                <font>
                   <Font size="20.0" />
                </font>
             </Text>
-            <Text fill="WHITE" layoutX="26.0" layoutY="424.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DBOS.AB.22" textAlignment="CENTER" wrappingWidth="186.25390625">
+            <Text fill="WHITE" layoutX="70.0" layoutY="423.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DBOS.AB.22" textAlignment="CENTER" wrappingWidth="109.25390625">
                <font>
                   <Font size="20.0" />
                </font>
             </Text>
-            <Text fill="WHITE" layoutX="14.0" layoutY="516.0" strokeType="OUTSIDE" strokeWidth="0.0" text="See all" textAlignment="CENTER" wrappingWidth="186.25390625">
+            <Text fill="WHITE" layoutX="73.0" layoutY="518.0" strokeType="OUTSIDE" strokeWidth="0.0" text="See all" textAlignment="CENTER" wrappingWidth="75.25390625">
                <font>
-                  <Font size="20.0" />
+                  <Font size="26.0" />
                </font>
             </Text>
             <CheckBox layoutX="212.0" layoutY="219.0" mnemonicParsing="false" textOverrun="CLIP">
@@ -73,6 +74,7 @@
                   <Font size="19.0" />
                </font>
             </CheckBox>
+            <Line endX="55.0" layoutX="164.0" layoutY="174.0" startX="-100.0" stroke="WHITE" />
          </children>
       </Pane>
       <PieChart fx:id="pieChartAbsent" layoutX="405.0" layoutY="140.0" prefHeight="525.0" prefWidth="742.0" style="-fx-background-color: red;" />
