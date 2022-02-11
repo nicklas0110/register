@@ -23,4 +23,7 @@ public class TeacherController {
         Scene scene = new Scene(parent);
         switchScene.setScene(scene);
     }
+
+    public void logoutBt(ActionEvent actionEvent) {
+    }
 }
