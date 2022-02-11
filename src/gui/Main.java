@@ -20,7 +20,7 @@ public class Main extends Application {
         primaryStage.setTitle("Register Attendance");
         primaryStage.setScene(new Scene(root));
         primaryStage.show();
-        primaryStage.setWidth(1190);
+        primaryStage.setWidth(1206);
         primaryStage.setHeight(769);
 
         Image icon = new Image(getClass().getResourceAsStream("View/Pictures/1200px-OOjs_UI_icon_userAvatar.svg.png"));
