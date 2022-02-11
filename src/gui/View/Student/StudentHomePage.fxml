@@ -4,6 +4,7 @@
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
 <?import javafx.scene.shape.Line?>
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
@@ -11,6 +12,7 @@
 
 <AnchorPane prefHeight="730.0" prefWidth="1190.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.Controller.StudentController">
    <children>
+      <Pane prefHeight="730.0" prefWidth="1190.0" style="-fx-background-color: #4B4B4B;" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffffff00" height="272.0" layoutX="279.0" layoutY="256.0" stroke="BLACK" strokeType="INSIDE" width="658.0" />
       <Button fx:id="yesBt" layoutX="656.0" layoutY="368.0" mnemonicParsing="false" onAction="#YesBt" prefHeight="91.0" prefWidth="233.0" style="-fx-background-color: #46C752;" text="✔" textFill="WHITE">
          <font>
@@ -27,27 +29,27 @@
             <Image url="@../Pictures/StudentPic.png" />
          </image>
       </ImageView>
-      <Text fx:id="userIDTf" layoutX="516.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User ID: XXXX" wrappingWidth="225.63671875">
+      <Text fx:id="userIDTf" fill="WHITE" layoutX="516.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User ID: XXXX" wrappingWidth="225.63671875">
          <font>
             <Font size="26.0" />
          </font>
       </Text>
-      <Text fx:id="educationTf" layoutX="510.0" layoutY="115.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Education: Datamatiker">
+      <Text fx:id="educationTf" fill="WHITE" layoutX="510.0" layoutY="115.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Education: Datamatiker">
          <font>
             <Font size="26.0" />
          </font>
       </Text>
-      <Text fx:id="absentPercentTf" layoutX="510.0" layoutY="166.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Absent percentage: 84%">
+      <Text fx:id="absentPercentTf" fill="WHITE" layoutX="510.0" layoutY="166.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Absent percentage: 84%">
          <font>
             <Font size="26.0" />
          </font>
       </Text>
-      <Text fx:id="DateTf" layoutX="549.0" layoutY="314.0" strokeType="OUTSIDE" strokeWidth="0.0" text="xx/xx/xx">
+      <Text fx:id="DateTf" fill="WHITE" layoutX="549.0" layoutY="314.0" strokeType="OUTSIDE" strokeWidth="0.0" text="xx/xx/xx">
          <font>
             <Font size="36.0" />
          </font>
       </Text>
-      <Text fx:id="timeTf" layoutX="551.0" layoutY="349.0" strokeType="OUTSIDE" strokeWidth="0.0" text="9:00 - 11:30">
+      <Text fx:id="timeTf" fill="WHITE" layoutX="551.0" layoutY="349.0" strokeType="OUTSIDE" strokeWidth="0.0" text="9:00 - 11:30">
          <font>
             <Font size="24.0" />
          </font>
@@ -56,17 +58,17 @@
          <font>
             <Font size="24.0" />
          </font></Button>
-      <Text layoutX="274.0" layoutY="578.0" strokeType="OUTSIDE" strokeWidth="0.0" text="See your absent percentage">
+      <Text fill="WHITE" layoutX="274.0" layoutY="578.0" strokeType="OUTSIDE" strokeWidth="0.0" text="See your absent percentage">
          <font>
             <Font size="36.0" />
          </font>
       </Text>
       <ImageView fitHeight="75.0" fitWidth="225.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../Pictures/EASV%20Logo%20Png.png" />
+            <Image url="@../Pictures/logo.9350c8a6965b03d5e9c3ba3f9cda80c0.png" />
          </image>
       </ImageView>
-      <Button fx:id="logoutBt" layoutX="965.0" layoutY="14.0" mnemonicParsing="false" onAction="#logoutBt" prefHeight="75.0" prefWidth="200.0" style="-fx-background-color: #4B4B4B;" text="Logout" textFill="WHITE">
+      <Button fx:id="logoutBt" layoutX="965.0" layoutY="14.0" mnemonicParsing="false" onAction="#logoutBt" prefHeight="75.0" prefWidth="200.0" style="-fx-background-color: #4B4B4B; -fx-border-color: white;" text="Logout" textFill="WHITE">
          <font>
             <Font size="24.0" />
          </font>

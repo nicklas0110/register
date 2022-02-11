@@ -5,36 +5,36 @@
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
-<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
 <AnchorPane prefHeight="730.0" prefWidth="1190.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.Controller.StudentViewPageController">
    <children>
-      <PieChart fx:id="pieChartAbsent" layoutX="558.0" layoutY="140.0" prefHeight="451.0" prefWidth="520.0" style="-fx-background-color: red;" />
+      <Pane prefHeight="730.0" prefWidth="365.0" style="-fx-background-color: #4B4B4B;">
+         <children>
+            <Text fill="WHITE" layoutX="36.0" layoutY="149.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Chose Your Subject " textAlignment="CENTER" wrappingWidth="293.25390625">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <PieChart fx:id="pieChartAbsent" layoutX="607.0" layoutY="153.0" prefHeight="451.0" prefWidth="520.0" style="-fx-background-color: red;" />
       <ImageView fitHeight="75.0" fitWidth="225.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../Pictures/EASV%20Logo%20Png.png" />
+            <Image url="@../Pictures/logo.9350c8a6965b03d5e9c3ba3f9cda80c0.png" />
          </image>
       </ImageView>
+      <Button fx:id="mainVeiwBtn" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#backMainVeiwBtn" opacity="0.0" prefHeight="53.0" prefWidth="225.0" text="Button" />
       <Button fx:id="logoutBtStView" layoutX="965.0" layoutY="14.0" mnemonicParsing="false" onAction="#logoutBtStView" prefHeight="75.0" prefWidth="200.0" style="-fx-background-color: #4B4B4B;" text="Logout" textFill="WHITE">
          <font>
             <Font size="24.0" />
          </font>
       </Button>
-      <Button fx:id="mainVeiwBtn" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#backMainVeiwBtn" opacity="0.0" prefHeight="53.0" prefWidth="225.0" text="Button" />
-      <BorderPane layoutX="59.0" layoutY="140.0" prefHeight="69.0" prefWidth="333.0" style="-fx-background-color: orange;">
-         <center>
-            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Chose Your Subject " textAlignment="CENTER" wrappingWidth="293.25390625" BorderPane.alignment="CENTER">
-               <font>
-                  <Font size="28.0" />
-               </font>
-            </Text>
-         </center>
-      </BorderPane>
-      <Text layoutX="335.0" layoutY="79.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Attendance analysis dashborad">
+      <Text layoutX="437.0" layoutY="103.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Attendance analysis dashborad">
          <font>
-            <Font size="40.0" />
+            <Font size="36.0" />
          </font>
       </Text>
    </children>

@@ -28,7 +28,7 @@
             <Font size="60.0" />
          </font>
       </Button>
-      <Button fx:id="logoutBtThView" layoutX="975.0" layoutY="14.0" mnemonicParsing="false" onAction="#logoutBtStView" prefHeight="75.0" prefWidth="200.0" style="-fx-background-color: #4B4B4B;" text="Logout" textFill="WHITE">
+      <Button fx:id="logoutBtThView" layoutX="965.0" layoutY="14.0" mnemonicParsing="false" onAction="#logoutBtStView" prefHeight="75.0" prefWidth="200.0" style="-fx-background-color: #4B4B4B;" text="Logout" textFill="WHITE">
          <font>
             <Font size="24.0" />
          </font>
