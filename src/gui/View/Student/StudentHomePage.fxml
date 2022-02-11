@@ -18,7 +18,7 @@
                   <Font size="24.0" />
                </font>
             </Button>
-            <Line endX="261.20001220703125" layoutX="570.0" layoutY="205.0" startX="-18.26666259765625" stroke="WHITE" />
+            <Line endX="261.20001220703125" layoutX="565.0" layoutY="205.0" startX="-18.26666259765625" stroke="WHITE" />
             <Line endX="-18.26666259765625" endY="236.0" layoutX="946.0" layoutY="226.0" startX="-18.26666259765625" stroke="WHITE" />
             <Text fx:id="DateTf" fill="WHITE" layoutX="523.0" layoutY="306.0" strokeType="OUTSIDE" strokeWidth="0.0" text="12/6/2022">
                <font>
@@ -51,7 +51,7 @@
             <Font size="42.0" />
          </font>
       </Button>
-      <ImageView fx:id="studentImage" fitHeight="204.0" fitWidth="200.0" layoutX="286.0" layoutY="37.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="studentImage" fitHeight="200.0" fitWidth="200.0" layoutX="286.0" layoutY="45.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../Pictures/Skærmbillede%202022-02-05%20150833.jpg" />
          </image>

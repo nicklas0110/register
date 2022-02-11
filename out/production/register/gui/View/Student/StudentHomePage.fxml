@@ -53,7 +53,7 @@
       </Button>
       <ImageView fx:id="studentImage" fitHeight="204.0" fitWidth="200.0" layoutX="286.0" layoutY="37.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../../../Datamatiker/2%20Semester/SDE2/Compulsory%20Assignment%201/Skærmbillede%202022-02-05%20150833.jpg" />
+            <Image url="@../Pictures/Skærmbillede%202022-02-05%20150833.jpg" />
          </image>
       </ImageView>
       <Text fx:id="userIDTf" fill="WHITE" layoutX="545.0" layoutY="63.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User ID: 2240" wrappingWidth="225.63671875">

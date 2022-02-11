@@ -12,19 +12,19 @@
 <AnchorPane prefHeight="730.0" prefWidth="1190.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.Controller.TeacherStudentInfoController">
     <children>
         <Button fx:id="mainVeiwBtn" layoutY="-3.0" mnemonicParsing="false" onAction="#backMainVeiwBtn" opacity="0.0" prefHeight="134.0" prefWidth="200.0" text="Button" />
-        <TableView layoutX="142.0" layoutY="300.0" prefHeight="395.0" prefWidth="815.0">
+        <TableView layoutX="142.0" layoutY="260.0" prefHeight="435.0" prefWidth="815.0">
             <columns>
                 <TableColumn prefWidth="136.0" text="Dato" />
                 <TableColumn prefWidth="183.0" text="Complait Title" />
                 <TableColumn prefWidth="540.0" text="Complait Details" />
             </columns>
         </TableView>
-      <Button fx:id="yesBt" layoutX="1000.0" layoutY="300.0" mnemonicParsing="false" onAction="#yesBt" prefHeight="100.0" prefWidth="150.0" style="-fx-background-color: #46C752;" text="✔" textFill="WHITE">
+      <Button fx:id="yesBt" layoutX="1000.0" layoutY="260.0" mnemonicParsing="false" onAction="#yesBt" prefHeight="100.0" prefWidth="150.0" style="-fx-background-color: #46C752;" text="✔" textFill="WHITE">
          <font>
             <Font size="60.0" />
          </font>
       </Button>
-      <Button fx:id="noBt" layoutX="1000.0" layoutY="465.0" mnemonicParsing="false" onAction="#noBt" prefHeight="100.0" prefWidth="150.0" style="-fx-background-color: #C00D0D;" text="☓" textFill="WHITE">
+      <Button fx:id="noBt" layoutX="1000.0" layoutY="422.0" mnemonicParsing="false" onAction="#noBt" prefHeight="100.0" prefWidth="150.0" style="-fx-background-color: #C00D0D;" text="☓" textFill="WHITE">
          <font>
             <Font size="60.0" />
          </font>
@@ -40,19 +40,19 @@
             <Image url="@../Pictures/EASV%20Logo%20Png.png" />
          </image>
       </ImageView>
-      <ImageView fx:id="studentImage" fitHeight="243.0" fitWidth="219.0" layoutX="142.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="studentImage" fitHeight="243.0" fitWidth="219.0" layoutX="142.0" layoutY="37.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../Pictures/StudentPic.png" />
+            <Image url="@../Pictures/Skærmbillede%202022-02-05%20150833.jpg" />
          </image>
       </ImageView>
       <Button layoutX="1000.0" layoutY="660.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="150.0" style="-fx-background-color: #009EE3;" text="Return" textFill="WHITE" />
-      <Text layoutX="405.0" layoutY="95.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name:" />
-      <Text layoutX="405.0" layoutY="129.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Age:" />
-      <Text layoutX="405.0" layoutY="168.0" strokeType="OUTSIDE" strokeWidth="0.0" text="E-mail:" />
-      <Text layoutX="405.0" layoutY="211.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Telefon nr: " />
-      <Text layoutX="479.0" layoutY="95.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&quot;Name&quot;" />
-      <Text layoutX="479.0" layoutY="129.0" strokeType="OUTSIDE" strokeWidth="0.0" text="xx" />
-      <Text layoutX="479.0" layoutY="168.0" strokeType="OUTSIDE" strokeWidth="0.0" text="sample@gmail.com" />
-      <Text layoutX="479.0" layoutY="211.0" strokeType="OUTSIDE" strokeWidth="0.0" text="+00 xxxxxxxx" />
+      <Text layoutX="405.0" layoutY="71.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name:" />
+      <Text layoutX="405.0" layoutY="105.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Age:" />
+      <Text layoutX="405.0" layoutY="144.0" strokeType="OUTSIDE" strokeWidth="0.0" text="E-mail:" />
+      <Text layoutX="405.0" layoutY="187.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Telefon nr: " />
+      <Text layoutX="479.0" layoutY="71.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&quot;Name&quot;" />
+      <Text layoutX="479.0" layoutY="105.0" strokeType="OUTSIDE" strokeWidth="0.0" text="xx" />
+      <Text layoutX="479.0" layoutY="144.0" strokeType="OUTSIDE" strokeWidth="0.0" text="sample@gmail.com" />
+      <Text layoutX="479.0" layoutY="187.0" strokeType="OUTSIDE" strokeWidth="0.0" text="+00 xxxxxxxx" />
     </children>
 </AnchorPane>
