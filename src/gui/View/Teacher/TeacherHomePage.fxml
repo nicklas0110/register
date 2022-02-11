@@ -13,25 +13,26 @@
 
 <AnchorPane prefHeight="730.0" prefWidth="1190.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.Controller.TeacherController">
    <children>
-      <Button fx:id="statisticsBt" layoutX="321.0" layoutY="635.0" mnemonicParsing="false" onAction="#statisticsBt" prefHeight="25.0" prefWidth="125.0" style="-fx-background-color: #D3D3D3;" text="Statistics">
+      <AnchorPane prefHeight="730.0" prefWidth="375.0" style="-fx-background-color: #4B4B4B;" />
+      <Button fx:id="statisticsBt" layoutX="439.0" layoutY="635.0" mnemonicParsing="false" onAction="#statisticsBt" prefHeight="25.0" prefWidth="125.0" style="-fx-background-color: #D3D3D3;" text="Statistics">
          <font>
             <Font size="16.0" />
          </font></Button>
-      <Button fx:id="studentInfoBt" layoutX="721.0" layoutY="635.0" mnemonicParsing="false" onAction="#studentInfoBt" prefHeight="25.0" prefWidth="125.0" style="-fx-background-color: #D3D3D3;" text="Student Info">
+      <Button fx:id="studentInfoBt" layoutX="795.0" layoutY="635.0" mnemonicParsing="false" onAction="#studentInfoBt" prefHeight="25.0" prefWidth="125.0" style="-fx-background-color: #D3D3D3;" text="Student Info">
          <font>
             <Font size="16.0" />
          </font></Button>
       <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../Pictures/Image_4.png" />
+            <Image url="@../Pictures/logo.9350c8a6965b03d5e9c3ba3f9cda80c0.png" />
          </image>
       </ImageView>
-      <Text layoutX="62.0" layoutY="156.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select your class">
+      <Text fill="WHITE" layoutX="62.0" layoutY="156.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select your class">
          <font>
-            <Font size="24.0" />
+            <Font name="System Bold" size="24.0" />
          </font>
       </Text>
-      <Text layoutX="90.0" layoutY="421.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Students">
+      <Text fill="WHITE" layoutX="90.0" layoutY="421.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Students">
          <font>
             <Font size="24.0" />
          </font>
@@ -43,7 +44,7 @@
             <Image url="@../Pictures/1200px-OOjs_UI_icon_userAvatar.svg.png" />
          </image>
       </ImageView>
-      <TitledPane layoutX="321.0" layoutY="130.0" prefHeight="475.0" prefWidth="800.0">
+      <TitledPane layoutX="421.0" layoutY="130.0" prefHeight="475.0" prefWidth="749.0">
          <content>
             <SplitPane dividerPositions="0.5" prefHeight="160.0" prefWidth="798.0">
               <items>
