@@ -25,4 +25,10 @@ public class TeacherStudentInfoController {
 
     public void backMainVeiwBtn(ActionEvent actionEvent) {
     }
+
+    public void YesBt(ActionEvent actionEvent) {
+    }
+
+    public void noBt(ActionEvent actionEvent) {
+    }
 }
