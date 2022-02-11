@@ -27,7 +27,7 @@
          </image>
       </ImageView>
       <Button fx:id="mainVeiwBtn" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#backMainVeiwBtn" opacity="0.0" prefHeight="53.0" prefWidth="225.0" text="Button" />
-      <Button fx:id="logoutBtStView" layoutX="965.0" layoutY="14.0" mnemonicParsing="false" onAction="#logoutBtStView" prefHeight="75.0" prefWidth="200.0" style="-fx-background-color: #4B4B4B;" text="Logout" textFill="WHITE">
+      <Button fx:id="logoutBtStView" layoutX="1016.0" layoutY="14.0" mnemonicParsing="false" onAction="#logoutBtStView" prefHeight="50.0" prefWidth="150.0" style="-fx-background-color: transparent; -fx-border-color: black;" text="Logout">
          <font>
             <Font size="24.0" />
          </font>
