@@ -2,7 +2,7 @@
 
 
 #loginBt {
-    -fx-background-color: blue;
+    -fx-background-color: #009EE3;
     -fx-border-color: #707070;
     -fx-effect: dropshadow(one-pass-box, #707070, 6, 0.0, 0, 0);
     -fx-font-size: 30px;
@@ -18,6 +18,16 @@
     -fx-effect: dropshadow(one-pass-box, #707070, 5, 0, 0, 0);
 }
 
-#selectClassMenu {
-    -fx-background-color:
+#selectClassMenu{
+    -fx-font-size: 14;
+    -fx-min-height: 20px;
+    -fx-border-radius: 5px;
+   
+}
+
+#logoM{
+    -fx-effect: dropshadow(one-pass-box, #707070, 6, 0.0, 0, 0);
+    -fx-border-color: red;
+    -fx-background-color: red;
+    -fx-max-width: 10px;
 }

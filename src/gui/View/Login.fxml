@@ -19,7 +19,7 @@
             <Image url="@Pictures/EASV-R.jpg" />
          </image>
       </ImageView>
-      <ImageView fitHeight="65.0" fitWidth="253.0" layoutX="26.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="logoM" fitHeight="65.0" fitWidth="253.0" layoutX="26.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@Pictures/logo.9350c8a6965b03d5e9c3ba3f9cda80c0.png" />
          </image>
