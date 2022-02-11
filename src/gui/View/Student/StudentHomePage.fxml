@@ -13,7 +13,7 @@
 <AnchorPane prefHeight="730.0" prefWidth="1190.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.Controller.StudentController">
    <children>
       <Pane prefHeight="730.0" prefWidth="1190.0" style="-fx-background-color: #4B4B4B;" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffffff00" height="272.0" layoutX="279.0" layoutY="256.0" stroke="BLACK" strokeType="INSIDE" width="658.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffffff00" height="272.0" layoutX="279.0" layoutY="256.0" stroke="WHITE" strokeType="INSIDE" width="658.0" />
       <Button fx:id="yesBt" layoutX="656.0" layoutY="368.0" mnemonicParsing="false" onAction="#YesBt" prefHeight="91.0" prefWidth="233.0" style="-fx-background-color: #46C752;" text="✔" textFill="WHITE">
          <font>
             <Font size="60.0" />
@@ -73,6 +73,6 @@
             <Font size="24.0" />
          </font>
       </Button>
-      <Line endX="356.0" layoutX="568.0" layoutY="242.0" startX="-72.0" />
+      <Line endX="356.0" layoutX="568.0" layoutY="242.0" startX="-72.0" stroke="WHITE" />
    </children>
 </AnchorPane>
