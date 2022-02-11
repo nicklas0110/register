@@ -12,7 +12,14 @@
 
 <AnchorPane prefHeight="730.0" prefWidth="1190.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.Controller.StudentController">
    <children>
-      <Pane prefHeight="730.0" prefWidth="1190.0" style="-fx-background-color: #4B4B4B;" />
+      <Pane prefHeight="730.0" prefWidth="1190.0" style="-fx-background-color: #4B4B4B;">
+         <children>
+            <Button fx:id="logoutBt" layoutX="1016.0" layoutY="14.0" mnemonicParsing="false" onAction="#logoutBt" prefHeight="50.0" prefWidth="150.0" style="-fx-background-color: #4B4B4B; -fx-border-color: white;" text="Logout" textFill="WHITE">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Button>
+         </children></Pane>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffffff00" height="272.0" layoutX="279.0" layoutY="256.0" stroke="WHITE" strokeType="INSIDE" width="658.0" />
       <Button fx:id="yesBt" layoutX="656.0" layoutY="368.0" mnemonicParsing="false" onAction="#YesBt" prefHeight="91.0" prefWidth="233.0" style="-fx-background-color: #46C752;" text="✔" textFill="WHITE">
          <font>
@@ -68,11 +75,6 @@
             <Image url="@../Pictures/logo.9350c8a6965b03d5e9c3ba3f9cda80c0.png" />
          </image>
       </ImageView>
-      <Button fx:id="logoutBt" layoutX="965.0" layoutY="14.0" mnemonicParsing="false" onAction="#logoutBt" prefHeight="75.0" prefWidth="200.0" style="-fx-background-color: #4B4B4B; -fx-border-color: white;" text="Logout" textFill="WHITE">
-         <font>
-            <Font size="24.0" />
-         </font>
-      </Button>
       <Line endX="356.0" layoutX="568.0" layoutY="242.0" startX="-72.0" stroke="WHITE" />
    </children>
 </AnchorPane>

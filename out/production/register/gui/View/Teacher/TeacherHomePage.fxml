@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import javafx.geometry.Insets?>
 <?import javafx.scene.chart.PieChart?>
 <?import javafx.scene.control.Button?>
-<?import javafx.scene.control.ComboBox?>
 <?import javafx.scene.control.SplitPane?>
 <?import javafx.scene.control.TitledPane?>
 <?import javafx.scene.image.Image?>
@@ -11,39 +12,49 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane prefHeight="730.0" prefWidth="1190.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.Controller.TeacherController">
+<AnchorPane prefHeight="730.0" prefWidth="1190.0" stylesheets="/gui/View/logind.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.Controller.TeacherController">
    <children>
-      <Button fx:id="statisticsBt" layoutX="321.0" layoutY="635.0" mnemonicParsing="false" onAction="#statisticsBt" prefHeight="25.0" prefWidth="125.0" style="-fx-background-color: #D3D3D3;" text="Statistics">
+      <AnchorPane prefHeight="730.0" prefWidth="375.0" style="-fx-background-color: #4B4B4B;">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Pictures/logo.9350c8a6965b03d5e9c3ba3f9cda80c0.png" />
+               </image>
+            </ImageView>
+            <JFXComboBox fx:id="selectClassMenu" editable="true" focusColor="WHITE" labelFloat="true" layoutX="58.0" layoutY="176.0" prefHeight="55.0" prefWidth="238.0" promptText="Select class" style="-fx-border-color: WHITE; -fx-padding: 12.14; -fx-border-radius: 5;">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </JFXComboBox>
+            <JFXComboBox focusColor="WHITE" labelFloat="true" layoutX="59.0" layoutY="439.0" prefHeight="53.0" prefWidth="240.0" promptText="Select Student" style="-fx-border-color: white; -fx-border-radius: 5;" />
+         </children>
+      </AnchorPane>
+      <Button fx:id="statisticsBt" layoutX="922.0" layoutY="635.0" mnemonicParsing="false" onAction="#statisticsBt" prefHeight="25.0" prefWidth="125.0" style="-fx-background-color: transparent; -fx-border-color: #009EE3;" text="Statistics">
          <font>
             <Font size="16.0" />
-         </font></Button>
-      <Button fx:id="studentInfoBt" layoutX="721.0" layoutY="635.0" mnemonicParsing="false" onAction="#studentInfoBt" prefHeight="25.0" prefWidth="125.0" style="-fx-background-color: #D3D3D3;" text="Student Info">
+         </font>
+      </Button>
+      <Button fx:id="studentInfoBt" layoutX="545.0" layoutY="635.0" mnemonicParsing="false" onAction="#studentInfoBt" prefHeight="25.0" prefWidth="125.0" style="-fx-background-color: transparent; -fx-border-color: #009EE3;" text="Student Info">
          <font>
             <Font size="16.0" />
-         </font></Button>
-      <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../Pictures/Image_4.png" />
-         </image>
-      </ImageView>
-      <Text layoutX="62.0" layoutY="156.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select your class">
+         </font>
+      </Button>
+      <Text fill="WHITE" layoutX="62.0" layoutY="156.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select your class">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="90.0" layoutY="421.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Students">
          <font>
             <Font size="24.0" />
          </font>
       </Text>
-      <Text layoutX="90.0" layoutY="421.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Students">
-         <font>
-            <Font size="24.0" />
-         </font>
-      </Text>
-      <ComboBox fx:id="selectClassMenu" layoutX="62.0" layoutY="173.0" prefHeight="50.0" prefWidth="235.0" promptText="Select Class" />
-      <ComboBox layoutX="62.0" layoutY="441.0" prefHeight="50.0" prefWidth="235.0" promptText="Select Student" />
       <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="62.0" layoutY="399.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../Pictures/1200px-OOjs_UI_icon_userAvatar.svg.png" />
+            <Image url="@../Pictures/1200px-OOjs_UI_icon_userAvatar%20WITHE%20LIKE%20Niklas%20Likes.png" />
          </image>
       </ImageView>
-      <TitledPane layoutX="321.0" layoutY="130.0" prefHeight="475.0" prefWidth="800.0">
+      <TitledPane layoutX="421.0" layoutY="130.0" prefHeight="475.0" prefWidth="749.0">
          <content>
             <SplitPane dividerPositions="0.5" prefHeight="160.0" prefWidth="798.0">
               <items>
@@ -56,7 +67,7 @@
             </SplitPane>
          </content>
       </TitledPane>
-      <Button fx:id="logoutBt" layoutX="950.0" layoutY="20.0" mnemonicParsing="false" onAction="#logoutBt" prefHeight="75.0" prefWidth="200.0" style="-fx-background-color: #4B4B4B;" text="Logout" textFill="WHITE">
+      <Button fx:id="logoutBt" layoutX="1020.0" layoutY="14.0" mnemonicParsing="false" onAction="#logoutBt" prefHeight="50.0" prefWidth="150.0" style="-fx-background-color: transparrent; -fx-border-color: black;" text="Logout">
          <font>
             <Font size="24.0" />
          </font>

@@ -18,6 +18,16 @@
     -fx-effect: dropshadow(one-pass-box, #707070, 5, 0, 0, 0);
 }
 
-#selectClassMenu {
-    -fx-font-size: 43;
+#selectClassMenu{
+    -fx-font-size: 14;
+    -fx-min-height: 20px;
+    -fx-border-radius: 5px;
+
+}
+
+#logoM{
+    -fx-effect: dropshadow(one-pass-box, #707070, 6, 0.0, 0, 0);
+    -fx-border-color: red;
+    -fx-background-color: red;
+    -fx-max-width: 10px;
 }
