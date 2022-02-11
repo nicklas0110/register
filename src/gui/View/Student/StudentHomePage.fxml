@@ -68,7 +68,6 @@
                   <ColorInput height="35.09" paint="#ff0000ba" width="105.28" />
                </effect>
             </JFXButton>
-            <JFXButton layoutX="989.0" layoutY="87.0" prefHeight="43.0" prefWidth="146.0" text="Logout" />
          </children></Pane>
       <ImageView fx:id="studentImage" fitHeight="200.0" fitWidth="200.0" layoutX="286.0" layoutY="45.0" pickOnBounds="true" preserveRatio="true">
          <image>
