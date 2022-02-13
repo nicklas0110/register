@@ -1,4 +1,4 @@
-package gui.Controller.TeacherControllers;
+package gui.Controller;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;

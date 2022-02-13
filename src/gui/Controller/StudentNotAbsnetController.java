@@ -1,4 +1,4 @@
-package gui.Controller.StudentControllers;
+package gui.Controller;
 
 public class StudentNotAbsnetController {
 }
