@@ -18,6 +18,9 @@ public class StudentController {
     @FXML
     private Button logoutBt;
 
+    @FXML
+    private Button LogoutButtonStudentID;
+
     public void YesBt(ActionEvent actionEvent) throws IOException {
         Stage popupScene = (Stage) yesBt.getScene().getWindow();
         popupScene.initModality(Modality.APPLICATION_MODAL);
@@ -29,6 +32,7 @@ public class StudentController {
     public void noBt(ActionEvent actionEvent) {
     }
 
+
     public void continueBt(ActionEvent actionEvent) throws IOException {
         Stage switchScene = (Stage) logoutBt.getScene().getWindow();
         Parent parent = FXMLLoader.load(getClass().getResource("../View/Student/StudentViewPage.fxml"));
@@ -36,9 +40,20 @@ public class StudentController {
         switchScene.setScene(scene);
     }
 
+
+
     public void logoutBt(ActionEvent actionEvent) throws IOException {
         Stage switchScene = (Stage) logoutBt.getScene().getWindow();
         Parent parent = FXMLLoader.load(getClass().getResource("../View/Login.fxml"));
+        Scene scene = new Scene(parent);
+        switchScene.setScene(scene);
+    }
+
+
+
+    public void LogoutButtonStudentAction(ActionEvent actionEvent) throws IOException {
+        Stage switchScene = (Stage) LogoutButtonStudentID.getScene().getWindow();
+        Parent parent = FXMLLoader.load(getClass().getResource("../../View/Login.fxml"));
         Scene scene = new Scene(parent);
         switchScene.setScene(scene);
     }
