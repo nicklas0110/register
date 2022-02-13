@@ -2,16 +2,12 @@
 
 <?import com.jfoenix.controls.JFXButton?>
 <?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
 <?import javafx.scene.effect.ColorInput?>
-<?import javafx.scene.effect.DropShadow?>
-<?import javafx.scene.effect.Light.Distant?>
-<?import javafx.scene.effect.Lighting?>
-<?import javafx.scene.effect.Shadow?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.Pane?>
-<?import javafx.scene.paint.Color?>
 <?import javafx.scene.shape.Line?>
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
@@ -20,6 +16,11 @@
    <children>
       <Pane cache="true" prefHeight="730.0" prefWidth="1190.0" style="-fx-background-color: #4B4B4B;">
          <children>
+            <Button fx:id="logoutBt" layoutX="1026.0" layoutY="14.0" mnemonicParsing="false" onAction="#logoutBt" prefHeight="50.0" prefWidth="150.0" style="-fx-background-color: #4B4B4B; -fx-border-color: white;" text="Logout" textFill="WHITE">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
             <Line endX="261.20001220703125" layoutX="565.0" layoutY="205.0" startX="-18.26666259765625" stroke="WHITE" />
             <Text fx:id="DateTf" fill="WHITE" layoutX="523.0" layoutY="306.0" strokeType="OUTSIDE" strokeWidth="0.0" text="12/6/2022">
                <font>
@@ -65,31 +66,6 @@
                </cursor>
                <effect>
                   <ColorInput height="35.09" paint="#ff0000ba" width="105.28" />
-               </effect>
-            </JFXButton>
-            <JFXButton fx:id="LogoutButtonStudentID" buttonType="RAISED" layoutX="1030.0" layoutY="14.0" onAction="#LogoutButtonStudentAction" prefHeight="50.0" prefWidth="146.0" ripplerFill="#ff0909" style="-fx-border-color: white;" text="Logout" textFill="WHITE">
-               <font>
-                  <Font size="14.0" />
-               </font>
-               <cursor>
-                  <Cursor fx:constant="HAND" />
-               </cursor>
-               <effect>
-                  <DropShadow height="22.2" radius="16.1475" width="44.39">
-                     <color>
-                        <Color red="1.0" green="0.09259258955717087" blue="0.09259258955717087" />
-                     </color>
-                     <input>
-                        <Lighting>
-                           <bumpInput>
-                              <Shadow />
-                           </bumpInput>
-                           <light>
-                              <Light.Distant />
-                           </light>
-                        </Lighting>
-                     </input>
-                  </DropShadow>
                </effect>
             </JFXButton>
          </children></Pane>
