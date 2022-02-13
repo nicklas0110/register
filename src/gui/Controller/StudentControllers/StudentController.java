@@ -1,29 +1,21 @@
 package gui.Controller.StudentControllers;
 
-import com.jfoenix.controls.JFXButton;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
-import javafx.stage.Modality;
 import javafx.stage.Stage;
 
 import java.io.IOException;
 
 public class StudentController {
-    @FXML
-    public JFXButton yesBt;
+
     @FXML
     private Button logoutBt;
 
-    public void YesBt(ActionEvent actionEvent) throws IOException {
-        Stage popupScene = (Stage) yesBt.getScene().getWindow();
-        popupScene.initModality(Modality.APPLICATION_MODAL);
-        Parent parent = FXMLLoader.load(getClass().getResource("../View/Student/StudentViewPage.fxml"));
-        Scene scene = new Scene(parent);
-        popupScene.setScene(scene);
+    public void YesBt(ActionEvent actionEvent) {
     }
 
     public void noBt(ActionEvent actionEvent) {

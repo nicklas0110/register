@@ -9,7 +9,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane prefHeight="730.0" prefWidth="1190.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.Controller.TeacherControllers.TeacherStudentInfoController">
+<AnchorPane prefHeight="730.0" prefWidth="1190.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.Controller.TeacherStudentInfoController">
     <children>
         <Button fx:id="mainVeiwBtn" layoutY="-3.0" mnemonicParsing="false" onAction="#backMainVeiwBtn" opacity="0.0" prefHeight="134.0" prefWidth="200.0" text="Button" />
         <TableView layoutX="142.0" layoutY="260.0" prefHeight="435.0" prefWidth="815.0">
