@@ -44,12 +44,16 @@ public class TeacherController implements Initializable {
         selectStudentMenu.getItems().add("Mikkel");
         selectStudentMenu.getItems().add("Nicklas");
         selectStudentMenu.getItems().add("Mostafa");
+        selectClassMenu.getItems().add("SDE2.A.22");
+        selectClassMenu.getItems().add("ITO2.AB.22");
+        selectClassMenu.getItems().add("SCO2.A.22");
+        selectClassMenu.getItems().add("DBOS.AB.22");
     }
     public void cbChoose(ActionEvent actionEvent)
     {
         selectedIndex = selectStudentMenu.getSelectionModel().getSelectedIndex();
         if (selectedIndex != -1) {
-            tekst.setText("Jeg kom ikke i skole i dag, da jeg havde ondt i pjæktarmen");
+            tekst.setText("I didn't come to school today, because my dog ate my shoes :(");
     }
     }
 
