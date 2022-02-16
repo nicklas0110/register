@@ -14,6 +14,11 @@
 
 <AnchorPane prefHeight="730.0" prefWidth="1190.0" stylesheets="/gui/View/logind.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.Controller.TeacherController">
    <children>
+      <JFXComboBox fx:id="selectClassMenu1" editable="true" focusColor="#ffffff00" labelFloat="true" prefHeight="55.0" prefWidth="238.0" promptText="Select class" style="-fx-border-color: WHITE; -fx-padding: 12.14; -fx-border-radius: 5; -fx-background-color: white;" unFocusColor="#ffffff00">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </JFXComboBox>
       <AnchorPane prefHeight="730.0" prefWidth="375.0" style="-fx-background-color: #4B4B4B;">
          <children>
             <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
@@ -21,12 +26,12 @@
                   <Image url="@../Pictures/logo.9350c8a6965b03d5e9c3ba3f9cda80c0.png" />
                </image>
             </ImageView>
-            <JFXComboBox fx:id="selectClassMenu" editable="true" focusColor="WHITE" labelFloat="true" layoutX="58.0" layoutY="176.0" prefHeight="55.0" prefWidth="238.0" promptText="Select class" style="-fx-border-color: WHITE; -fx-padding: 12.14; -fx-border-radius: 5; -fx-background-color: white;" unFocusColor="#030303">
+            <JFXComboBox fx:id="selectClassMenu" editable="true" focusColor="#ffffff00" labelFloat="true" layoutX="58.0" layoutY="176.0" prefHeight="55.0" prefWidth="238.0" promptText="Select class" style="-fx-border-color: WHITE; -fx-padding: 12.14; -fx-border-radius: 5; -fx-background-color: white;" unFocusColor="#ffffff00">
                <opaqueInsets>
                   <Insets />
                </opaqueInsets>
             </JFXComboBox>
-            <JFXComboBox fx:id="selectStudentMenu" focusColor="WHITE" labelFloat="true" layoutX="59.0" layoutY="439.0" onAction="#cbChoose" prefHeight="55.0" prefWidth="238.0" promptText="Select Student" style="-fx-border-color: white; -fx-border-radius: 5; -fx-background-color: white; -fx-padding: 12.14;" />
+            <JFXComboBox fx:id="selectStudentMenu" focusColor="#ffffff00" labelFloat="true" layoutX="59.0" layoutY="439.0" onAction="#cbChoose" prefHeight="55.0" prefWidth="238.0" promptText="Select Student" style="-fx-border-color: white; -fx-border-radius: 5; -fx-background-color: white; -fx-padding: 12.14;" unFocusColor="#4d4d4d00" />
          </children>
       </AnchorPane>
       <Button fx:id="statisticsBt" layoutX="922.0" layoutY="635.0" mnemonicParsing="false" onAction="#statisticsBt" prefHeight="25.0" prefWidth="125.0" style="-fx-background-color: transparent; -fx-border-color: #009EE3;" text="Statistics">
