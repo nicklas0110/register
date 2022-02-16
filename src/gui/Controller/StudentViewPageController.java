@@ -44,10 +44,10 @@ public class StudentViewPageController {
         Axis<String> xAxis = chart.getXAxis();
         xAxis.setLabel("Day");
 
-        /*Axis<Number> yAxis = chart.getYAxis();
+        Axis<Number> yAxis = chart.getYAxis();
         yAxis.setLabel("Amount");
 
-         */
+
 
 
         Random r = new Random();
