@@ -9,7 +9,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane prefHeight="730.0" prefWidth="1190.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.Controller.TeacherStudentInfoController">
+<AnchorPane prefHeight="730.0" prefWidth="1190.0" style="-fx-background-color: #4B4B4B;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.Controller.TeacherStudentInfoController">
     <children>
         <Button fx:id="mainMenu" layoutY="-3.0" mnemonicParsing="false" onAction="#mainMenu" opacity="0.0" prefHeight="59.0" prefWidth="144.0" text="Button" />
         <TableView layoutX="142.0" layoutY="260.0" prefHeight="435.0" prefWidth="815.0">
@@ -29,14 +29,14 @@
             <Font name="System Italic" size="29.0" />
          </font>
       </Button>
-      <Button fx:id="logoutBtThView" layoutX="1062.0" layoutY="14.0" mnemonicParsing="false" onAction="#logoutBtStView" prefHeight="43.0" prefWidth="114.0" style="-fx-background-color: transparent; -fx-border-color: black;" text="Logout">
+      <Button fx:id="logoutBtThView" layoutX="1062.0" layoutY="14.0" mnemonicParsing="false" onAction="#logoutBtStView" prefHeight="43.0" prefWidth="114.0" style="-fx-background-color: transparent; -fx-border-color: white;" text="Logout" textFill="WHITE">
          <font>
             <Font size="16.0" />
          </font>
       </Button>
       <ImageView fitHeight="35.0" fitWidth="120.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../Pictures/EASV%20Logo%20Png.png" />
+            <Image url="@../Pictures/logo.9350c8a6965b03d5e9c3ba3f9cda80c0.png" />
          </image>
       </ImageView>
       <ImageView fx:id="studentImage" fitHeight="243.0" fitWidth="219.0" layoutX="142.0" layoutY="54.0" pickOnBounds="true" preserveRatio="true">
@@ -48,25 +48,25 @@
          <font>
             <Font size="18.0" />
          </font></Button>
-      <Text layoutX="405.0" layoutY="88.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name:">
+      <Text fill="WHITE" layoutX="405.0" layoutY="88.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name:">
          <font>
             <Font name="System Bold" size="12.0" />
          </font></Text>
-      <Text layoutX="405.0" layoutY="122.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Age:">
+      <Text fill="WHITE" layoutX="405.0" layoutY="122.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Age:">
          <font>
             <Font name="System Bold" size="12.0" />
          </font></Text>
-      <Text layoutX="405.0" layoutY="161.0" strokeType="OUTSIDE" strokeWidth="0.0" text="E-mail:">
+      <Text fill="WHITE" layoutX="405.0" layoutY="161.0" strokeType="OUTSIDE" strokeWidth="0.0" text="E-mail:">
          <font>
             <Font name="System Bold" size="12.0" />
          </font></Text>
-      <Text layoutX="405.0" layoutY="204.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Telefon nr: ">
+      <Text fill="WHITE" layoutX="405.0" layoutY="204.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Telefon nr: ">
          <font>
             <Font name="System Bold" size="12.0" />
          </font></Text>
-      <Text layoutX="479.0" layoutY="88.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Henrik" />
-      <Text layoutX="479.0" layoutY="125.0" strokeType="OUTSIDE" strokeWidth="0.0" text="26" />
-      <Text layoutX="479.0" layoutY="161.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Henrik@gmail.com" />
-      <Text layoutX="479.0" layoutY="204.0" strokeType="OUTSIDE" strokeWidth="0.0" text="+45 69696969" />
+      <Text fill="WHITE" layoutX="479.0" layoutY="88.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Henrik" />
+      <Text fill="WHITE" layoutX="479.0" layoutY="125.0" strokeType="OUTSIDE" strokeWidth="0.0" text="26" />
+      <Text fill="WHITE" layoutX="479.0" layoutY="161.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Henrik@gmail.com" />
+      <Text fill="WHITE" layoutX="479.0" layoutY="204.0" strokeType="OUTSIDE" strokeWidth="0.0" text="+45 69696969" />
     </children>
 </AnchorPane>
