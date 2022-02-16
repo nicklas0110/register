@@ -16,17 +16,17 @@
             <columns>
                 <TableColumn prefWidth="136.0" text="Dato" />
                 <TableColumn prefWidth="183.0" text="Complait Title" />
-                <TableColumn prefWidth="540.0" text="Complait Details" />
+                <TableColumn prefWidth="495.20003051757817" text="Complait Details" />
             </columns>
         </TableView>
-      <Button fx:id="yesBt" layoutX="1000.0" layoutY="260.0" mnemonicParsing="false" onAction="#yesBt" prefHeight="100.0" prefWidth="150.0" style="-fx-background-color: #46C752;" text="✔" textFill="WHITE">
+      <Button fx:id="yesBt" layoutX="1000.0" layoutY="284.0" mnemonicParsing="false" onAction="#yesBt" prefHeight="82.0" prefWidth="174.0" style="-fx-background-color: #46C752;" text="✔" textFill="WHITE">
          <font>
-            <Font size="60.0" />
+            <Font size="28.0" />
          </font>
       </Button>
-      <Button fx:id="noBt" layoutX="1000.0" layoutY="422.0" mnemonicParsing="false" onAction="#noBt" prefHeight="100.0" prefWidth="150.0" style="-fx-background-color: #C00D0D;" text="☓" textFill="WHITE">
+      <Button fx:id="noBt" layoutX="1000.0" layoutY="383.0" mnemonicParsing="false" onAction="#noBt" prefHeight="82.0" prefWidth="174.0" style="-fx-background-color: #C00D0D;" text="☓" textFill="WHITE">
          <font>
-            <Font size="60.0" />
+            <Font name="System Italic" size="29.0" />
          </font>
       </Button>
       <Button fx:id="logoutBtThView" layoutX="1062.0" layoutY="14.0" mnemonicParsing="false" onAction="#logoutBtStView" prefHeight="43.0" prefWidth="114.0" style="-fx-background-color: transparent; -fx-border-color: black;" text="Logout">
@@ -39,19 +39,34 @@
             <Image url="@../Pictures/EASV%20Logo%20Png.png" />
          </image>
       </ImageView>
-      <ImageView fx:id="studentImage" fitHeight="243.0" fitWidth="219.0" layoutX="142.0" layoutY="37.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="studentImage" fitHeight="243.0" fitWidth="219.0" layoutX="142.0" layoutY="54.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../Pictures/Skærmbillede%202022-02-05%20150833.jpg" />
          </image>
       </ImageView>
-      <Button fx:id="returnBt" layoutX="1000.0" layoutY="660.0" mnemonicParsing="false" onAction="#returnBt" prefHeight="35.0" prefWidth="150.0" style="-fx-background-color: #009EE3;" text="Return" textFill="WHITE" />
-      <Text layoutX="405.0" layoutY="71.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name:" />
-      <Text layoutX="405.0" layoutY="105.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Age:" />
-      <Text layoutX="405.0" layoutY="144.0" strokeType="OUTSIDE" strokeWidth="0.0" text="E-mail:" />
-      <Text layoutX="405.0" layoutY="187.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Telefon nr: " />
-      <Text layoutX="479.0" layoutY="71.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Henrik" />
-      <Text layoutX="479.0" layoutY="105.0" strokeType="OUTSIDE" strokeWidth="0.0" text="26" />
-      <Text layoutX="479.0" layoutY="144.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Henrik@gmail.com" />
-      <Text layoutX="479.0" layoutY="187.0" strokeType="OUTSIDE" strokeWidth="0.0" text="+45 69696969" />
+      <Button fx:id="returnBt" layoutX="1000.0" layoutY="643.0" mnemonicParsing="false" onAction="#returnBt" prefHeight="52.0" prefWidth="174.0" style="-fx-background-color: #009EE3;" text="Return" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Text layoutX="405.0" layoutY="88.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Text>
+      <Text layoutX="405.0" layoutY="122.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Age:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Text>
+      <Text layoutX="405.0" layoutY="161.0" strokeType="OUTSIDE" strokeWidth="0.0" text="E-mail:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Text>
+      <Text layoutX="405.0" layoutY="204.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Telefon nr: ">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Text>
+      <Text layoutX="479.0" layoutY="88.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Henrik" />
+      <Text layoutX="479.0" layoutY="125.0" strokeType="OUTSIDE" strokeWidth="0.0" text="26" />
+      <Text layoutX="479.0" layoutY="161.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Henrik@gmail.com" />
+      <Text layoutX="479.0" layoutY="204.0" strokeType="OUTSIDE" strokeWidth="0.0" text="+45 69696969" />
     </children>
 </AnchorPane>
