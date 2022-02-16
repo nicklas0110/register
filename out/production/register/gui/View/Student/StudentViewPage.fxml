@@ -85,7 +85,7 @@
       <Button fx:id="mainVeiwBtn" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#backMainVeiwBtn" opacity="0.0" prefHeight="53.0" prefWidth="225.0" text="Button" />
       <Button fx:id="logoutBtStView" layoutX="1052.0" layoutY="14.0" mnemonicParsing="false" onAction="#logoutBtStView" prefHeight="41.0" prefWidth="124.0" style="-fx-background-color: transparent; -fx-border-color: black;" text="Logout">
          <font>
-            <Font size="18.0" />
+            <Font size="16.0" />
          </font>
       </Button>
       <Text layoutX="547.0" layoutY="118.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Attendance analysis dashborad">
