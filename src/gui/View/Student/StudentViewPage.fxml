@@ -66,15 +66,12 @@
                   <Blend />
                </effect>
             </CheckBox>
-            <CheckBox layoutX="207.0" layoutY="495.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="27.0" textOverrun="CLIP">
+            <Line endX="-32.20001220703125" layoutX="180.0" layoutY="174.0" startX="-100.0" stroke="#fbbb2c" strokeWidth="3.0" />
+            <CheckBox layoutX="212.0" layoutY="499.0" mnemonicParsing="false" textOverrun="CLIP">
                <effect>
                   <Blend />
                </effect>
-               <font>
-                  <Font size="19.0" />
-               </font>
             </CheckBox>
-            <Line endX="55.0" layoutX="177.0" layoutY="174.0" startX="-100.0" stroke="WHITE" />
          </children>
       </Pane>
       <PieChart fx:id="pieChartAbsent" layoutX="405.0" layoutY="163.0" prefHeight="525.0" prefWidth="742.0" style="-fx-background-color: red;" />
@@ -84,9 +81,9 @@
          </image>
       </ImageView>
       <Button fx:id="mainVeiwBtn" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#backMainVeiwBtn" opacity="0.0" prefHeight="53.0" prefWidth="225.0" text="Button" />
-      <Button fx:id="logoutBtStView" layoutX="1026.0" layoutY="14.0" mnemonicParsing="false" onAction="#logoutBtStView" prefHeight="50.0" prefWidth="150.0" style="-fx-background-color: transparent; -fx-border-color: black;" text="Logout">
+      <Button fx:id="logoutBtStView" layoutX="1052.0" layoutY="14.0" mnemonicParsing="false" onAction="#logoutBtStView" prefHeight="41.0" prefWidth="124.0" style="-fx-background-color: transparent; -fx-border-color: black;" text="Logout">
          <font>
-            <Font size="24.0" />
+            <Font size="18.0" />
          </font>
       </Button>
       <Text layoutX="529.0" layoutY="131.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Attendance analysis dashborad">
