@@ -1,5 +1,6 @@
 package gui.Controller;
 
+import javafx.application.Platform;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.stage.Stage;
@@ -8,16 +9,17 @@ import java.awt.*;
 
 public class yesANDno {
 
+    @FXML
+    public Button no;
+    @FXML
+    public Button yes;
 
-    @FXML
-    private Button yes;
-    @FXML
-    private Button no;
 
     public void yes(ActionEvent actionEvent) {
-        //Stage stage = (Stage) no.getScene().getWindow();
+        Platform.exit();
     }
 
     public void no(ActionEvent actionEvent) {
+        Platform.exit();
     }
 }
