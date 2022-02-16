@@ -49,7 +49,7 @@
                </children>
             </Pane>
             <Line endX="-18.26666259765625" endY="205.66665649414062" layoutX="947.0" layoutY="248.0" startX="-18.26666259765625" stroke="WHITE" />
-            <JFXButton fx:id="yesBt" buttonType="RAISED" layoutX="342.0" layoutY="365.0" prefHeight="92.0" prefWidth="242.0" style="-fx-background-color: #46C752;" text="✔" textFill="WHITE">
+            <JFXButton fx:id="yesBt" buttonType="RAISED" layoutX="342.0" layoutY="365.0" onAction="#yesBt" prefHeight="92.0" prefWidth="242.0" style="-fx-background-color: #46C752;" text="✔" textFill="WHITE">
                <font>
                   <Font size="29.0" />
                </font>
@@ -57,7 +57,7 @@
                   <Cursor fx:constant="HAND" />
                </cursor>
             </JFXButton>
-            <JFXButton fx:id="noBt" buttonType="RAISED" layoutX="618.0" layoutY="365.0" prefHeight="92.0" prefWidth="242.0" ripplerFill="WHITE" style="-fx-background-color: #C00D0D;" text="☓" textFill="WHITE">
+            <JFXButton fx:id="noBt" buttonType="RAISED" layoutX="618.0" layoutY="365.0" onAction="#noBt" prefHeight="92.0" prefWidth="242.0" ripplerFill="WHITE" style="-fx-background-color: #C00D0D;" text="☓" textFill="WHITE">
                <font>
                   <Font size="29.0" />
                </font>

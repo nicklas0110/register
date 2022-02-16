@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="100.0" prefWidth="200.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.Controller.yesANDno">
+   <children>
+      <JFXButton fx:id="yes" layoutX="152.0" layoutY="61.0" onAction="#yes" style="-fx-background-color: #46C752;" text="Yes" />
+      <JFXButton fx:id="no" layoutX="14.0" layoutY="61.0" onAction="#no" style="-fx-background-color: #C00D0D;" text="No" />
+      <Text layoutX="74.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="You sure?" />
+   </children>
+</AnchorPane>
