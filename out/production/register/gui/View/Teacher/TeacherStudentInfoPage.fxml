@@ -12,11 +12,11 @@
 <AnchorPane prefHeight="730.0" prefWidth="1190.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.Controller.TeacherStudentInfoController">
     <children>
         <Button fx:id="mainMenu" layoutY="-3.0" mnemonicParsing="false" onAction="#mainMenu" opacity="0.0" prefHeight="59.0" prefWidth="144.0" text="Button" />
-        <TableView layoutX="142.0" layoutY="260.0" prefHeight="435.0" prefWidth="815.0">
+        <TableView fx:id="tableView" layoutX="142.0" layoutY="260.0" prefHeight="435.0" prefWidth="815.0">
             <columns>
-                <TableColumn prefWidth="136.0" text="Dato" />
-                <TableColumn prefWidth="183.0" text="Complait Title" />
-                <TableColumn prefWidth="495.20003051757817" text="Complait Details" />
+                <TableColumn fx:id="datoColumn" prefWidth="70.0" text="Date" />
+                <TableColumn fx:id="titleColumn" prefWidth="150.0" text="Complaint Title" />
+                <TableColumn fx:id="detailsColumn" prefWidth="594.0" text="Complaint Details" />
             </columns>
         </TableView>
       <Button fx:id="yesBt" layoutX="1000.0" layoutY="284.0" mnemonicParsing="false" onAction="#yesBt" prefHeight="82.0" prefWidth="174.0" style="-fx-background-color: #46C752;" text="✔" textFill="WHITE">

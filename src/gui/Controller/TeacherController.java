@@ -44,6 +44,7 @@ public class TeacherController implements Initializable {
         selectStudentMenu.getItems().add("Mikkel");
         selectStudentMenu.getItems().add("Nicklas");
         selectStudentMenu.getItems().add("Mostafa");
+        selectStudentMenu.getItems().add("Henrik");
         selectClassMenu.getItems().add("SDE2.A.22");
         selectClassMenu.getItems().add("ITO2.AB.22");
         selectClassMenu.getItems().add("SCO2.A.22");
