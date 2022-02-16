@@ -50,12 +50,12 @@ public class TeacherController implements Initializable {
         selectClassMenu.getItems().add("SCO2.A.22");
         selectClassMenu.getItems().add("DBOS.AB.22");
     }
-    public void cbChoose(ActionEvent actionEvent)
-    {
+
+    public void cbChoose(ActionEvent actionEvent) {
         selectedIndex = selectStudentMenu.getSelectionModel().getSelectedIndex();
         if (selectedIndex != -1) {
             tekst.setText("I didn't come to school today, because my dog ate my shoes :(");
-    }
+        }
     }
 
 
@@ -77,7 +77,6 @@ public class TeacherController implements Initializable {
     }
 
 
-
     public void statisticsBt(ActionEvent actionEvent) {
 
 
@@ -93,6 +92,4 @@ public class TeacherController implements Initializable {
 
         chart.setData(pieData);
     }
-
-
 }
