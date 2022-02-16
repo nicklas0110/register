@@ -21,7 +21,7 @@
                   <Image url="@../Pictures/logo.9350c8a6965b03d5e9c3ba3f9cda80c0.png" />
                </image>
             </ImageView>
-            <JFXComboBox fx:id="selectClassMenu" editable="true" focusColor="WHITE" labelFloat="true" layoutX="58.0" layoutY="176.0" prefHeight="55.0" prefWidth="238.0" promptText="Select class" style="-fx-border-color: WHITE; -fx-padding: 12.14; -fx-border-radius: 5;">
+            <JFXComboBox fx:id="selectClassMenu" editable="true" focusColor="WHITE" labelFloat="true" layoutX="58.0" layoutY="176.0" prefHeight="55.0" prefWidth="238.0" promptText="Select class" style="-fx-border-color: WHITE; -fx-padding: 12.14; -fx-border-radius: 5;" unFocusColor="WHITE">
                <opaqueInsets>
                   <Insets />
                </opaqueInsets>
@@ -66,7 +66,8 @@
                            </font>
                         </Text>
                         <Text fx:id="tekst" layoutX="32.0" layoutY="85.0" strokeType="OUTSIDE" strokeWidth="0.0" text="----------------------------------------------------------------" />
-                     </children></AnchorPane>
+                     </children>
+                  </AnchorPane>
                 <AnchorPane fx:id="see" minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0" />
                   <PieChart fx:id="chart" prefHeight="445.0" prefWidth="547.0">
 
