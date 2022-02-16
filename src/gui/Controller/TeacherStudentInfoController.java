@@ -12,8 +12,6 @@ import java.io.IOException;
 
 public class TeacherStudentInfoController {
     @FXML
-    public Button mainVeiwBtn;
-    @FXML
     public Button logoutBtThView;
     @FXML
     public Button mainMenu;
