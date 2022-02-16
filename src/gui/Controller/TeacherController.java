@@ -5,25 +5,53 @@ import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
+import javafx.fxml.Initializable;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.chart.PieChart;
 import javafx.scene.control.Button;
+import javafx.scene.control.ComboBox;
+import javafx.scene.control.TextField;
+import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
 import java.io.IOException;
+import java.net.URL;
 import java.util.Random;
+import java.util.ResourceBundle;
 
-public class TeacherController {
+public class TeacherController implements Initializable {
     @FXML
     private Button logoutBt;
     @FXML
     private Button studentInfoBt;
     @FXML
     private Button statisticsBt;
-
+    @FXML
+    private ComboBox selectStudentMenu;
+    @FXML
+    private ComboBox selectClassMenu;
     @FXML
     private PieChart chart;
+    @FXML
+    private Text tekst;
+
+    private int selectedIndex = -1;
+
+    @Override
+    public void initialize(URL location, ResourceBundle resource) {
+        selectStudentMenu.getItems().add("Frederik");
+        selectStudentMenu.getItems().add("Mikkel");
+        selectStudentMenu.getItems().add("Nicklas");
+        selectStudentMenu.getItems().add("Mostafa");
+    }
+    public void cbChoose(ActionEvent actionEvent)
+    {
+        selectedIndex = selectStudentMenu.getSelectionModel().getSelectedIndex();
+        if (selectedIndex != -1) {
+            tekst.setText("Jeg kom ikke i skole i dag, da jeg havde ondt i pjæktarmen");
+    }
+    }
 
 
     public void Next(ActionEvent actionEvent) {
