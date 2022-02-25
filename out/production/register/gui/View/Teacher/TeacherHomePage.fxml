@@ -14,7 +14,7 @@
 
 <AnchorPane prefHeight="730.0" prefWidth="1190.0" stylesheets="/gui/View/logind.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.Controller.TeacherController">
    <children>
-      <JFXComboBox fx:id="selectClassMenu1" editable="true" focusColor="#ffffff00" labelFloat="true" prefHeight="55.0" prefWidth="238.0" promptText="Select class" style="-fx-border-color: WHITE; -fx-padding: 12.14; -fx-border-radius: 5; -fx-background-color: white;" unFocusColor="#ffffff00">
+      <JFXComboBox editable="true" focusColor="#ffffff00" labelFloat="true" prefHeight="55.0" prefWidth="238.0" promptText="Select class" style="-fx-border-color: WHITE; -fx-padding: 12.14; -fx-border-radius: 5; -fx-background-color: white;" unFocusColor="#ffffff00">
          <opaqueInsets>
             <Insets />
          </opaqueInsets>

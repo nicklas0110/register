@@ -58,7 +58,7 @@
             <Font size="40.0" />
          </font>
       </JFXButton>
-      <JFXButton fx:id="loginTeacherBt" cache="true" cacheHint="QUALITY" layoutX="887.0" layoutY="637.0" onAction="#loginTeacherBt" prefHeight="24.0" prefWidth="130.0" text="Midlertidlig Teacher knap">
+      <JFXButton fx:id="loginTeacherBt" cache="true" cacheHint="QUALITY" layoutX="877.0" layoutY="207.0" onAction="#loginTeacherBt" prefHeight="24.0" prefWidth="130.0" style="-fx-background-color: #009EE3;" text="I'm a teacher">
          <font>
             <Font size="10.0" />
          </font>

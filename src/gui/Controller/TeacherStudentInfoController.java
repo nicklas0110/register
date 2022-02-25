@@ -1,6 +1,6 @@
 package gui.Controller;
 
-import gui.Model.Complaint;
+import be.Complaint;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
